@@ -1,32 +1,51 @@
 import FWCore.ParameterSet.Config as cms
 
 # configuration to model pileup for initial physics phase
-from SimGeneral.MixingModule.aliases_PreMix_cfi import *
+from SimGeneral.MixingModule.aliases_cfi import *
 from SimGeneral.MixingModule.pixelDigitizer_cfi import *
 from SimGeneral.MixingModule.stripDigitizer_cfi import *
-#from SimGeneral.MixingModule.ecalDigitizer_cfi import *
-#from SimGeneral.MixingModule.hcalDigitizer_cfi import *
+from SimGeneral.MixingModule.ecalDigitizer_cfi import *
+from SimGeneral.MixingModule.hcalDigitizer_cfi import *
 from SimGeneral.MixingModule.castorDigitizer_cfi import *
 from SimGeneral.MixingModule.trackingTruthProducer_cfi import *
 
-theDigitizersMixPreMix = cms.PSet(
+pixelDigitizer.TofLowerCut=cms.double(18.5)
+pixelDigitizer.TofUpperCut=cms.double(43.5)
+stripDigitizer.CosmicDelayShift = cms.untracked.double(31)
+
+ecalDigitizer.cosmicsPhase = cms.bool(True)
+ecalDigitizer.cosmicsShift = cms.double(1.)
+
+theDigitizers = cms.PSet(
   pixel = cms.PSet(
     pixelDigitizer
   ),
   strip = cms.PSet(
     stripDigitizer
+  ),
+  ecal = cms.PSet(
+    ecalDigitizer
+  ),
+  hcal = cms.PSet(
+    hcalDigitizer
   ),
   castor  = cms.PSet(
     castorDigitizer
   )
 )
 
-theDigitizersMixPreMixValid = cms.PSet(
+theDigitizersValid = cms.PSet(
   pixel = cms.PSet(
     pixelDigitizer
   ),
   strip = cms.PSet(
     stripDigitizer
+  ),
+  ecal = cms.PSet(
+    ecalDigitizer
+  ),
+  hcal = cms.PSet(
+    hcalDigitizer
   ),
   castor  = cms.PSet(
     castorDigitizer
@@ -35,10 +54,8 @@ theDigitizersMixPreMixValid = cms.PSet(
     trackingParticles
   )
 )
-        
 
-#theDigitizersNoNoise.pixel.AddNoise = cms.bool(True)
-#theDigitizersNoNoise.pixel.addNoisyPixels = cms.bool(False)
-theDigitizersMixPreMix.strip.Noise = cms.bool(False) # will be added in DataMixer
-theDigitizersMixPreMixValid.strip.Noise = cms.bool(False) # will be added in DataMixer
+
+
+
 
