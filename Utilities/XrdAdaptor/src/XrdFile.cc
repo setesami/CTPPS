@@ -144,7 +144,7 @@ XrdFile::open (const char *name,
   modeflags |= (perms & S_IWOTH) ? XrdCl::Access::GW : XrdCl::Access::None;
   modeflags |= (perms & S_IXOTH) ? XrdCl::Access::GX : XrdCl::Access::None;
 
-  m_requestmanager.reset(new RequestManager(name, openflags, modeflags));
+  m_requestmanager = RequestManager::getInstance(name, openflags, modeflags);
   m_name = name;
 
   // Stat the file so we can keep track of the offset better.
@@ -213,7 +213,7 @@ XrdFile::close (void)
 void
 XrdFile::abort (void)
 {
-  m_requestmanager.reset(nullptr);
+  m_requestmanager.reset();
   m_close = false;
   m_offset = 0;
   m_size = -1;
@@ -350,6 +350,24 @@ XrdFile::readv (IOPosBuffer *into, IOSize n)
   }
   std::chrono::time_point<std::chrono::high_resolution_clock> start, end;
   start = std::chrono::high_resolution_clock::now();
+
+    // If there are multiple readv calls, wait until all return until looking
+    // at the results of any.  This guarantees that all readv's have finished
+    // by time we call .get() for the first time (in case one of the readv's
+    // result in an exception).
+    //
+    // We cannot have outstanding readv's on function exit as the XrdCl may
+    // write into the corresponding buffer at the same time as ROOT.
+  if (readv_futures.size() > 1)
+  {
+    for (auto & readv_result : readv_futures)
+    {
+      if (readv_result.first.valid())
+      {
+        readv_result.first.wait();
+      }
+    }
+  }
 
   for (auto & readv_result : readv_futures)
   {
