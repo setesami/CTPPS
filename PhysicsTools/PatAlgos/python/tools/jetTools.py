@@ -400,7 +400,7 @@ class AddJetCollection(ConfigToolBase):
                 process.load("RecoBTag.SecondaryVertex.secondaryVertex_cff")
                 process.load("RecoBTag.SoftLepton.softLepton_cff")
                 process.load("RecoBTag.Combined.combinedMVA_cff")
-                process.load("RecoBTag.CTagging.cTagging_cff")
+                process.load("RecoBTag.CTagging.RecoCTagging_cff")
             #addESProducers(process,'RecoBTag.Configuration.RecoBTag_cff')
             import RecoBTag.Configuration.RecoBTag_cff as btag
             import RecoJets.JetProducers.caTopTaggers_cff as toptag
@@ -488,16 +488,8 @@ class AddJetCollection(ConfigToolBase):
                         setattr(process, btagInfo+_labelName+postfix, btag.softMuonTagInfos.clone(jets = jetSource, primaryVertex=pvSource))
                     if btagInfo == 'softPFMuonsTagInfos':
                         setattr(process, btagInfo+_labelName+postfix, btag.softPFMuonsTagInfos.clone(jets = jetSource, primaryVertex=pvSource, muons=muSource))
-                    if btagInfo == 'softPFMuonsTagInfosAK8':
-                        setattr(process, btagInfo+_labelName+postfix, btag.softPFMuonsTagInfosAK8.clone(jets = jetSource, primaryVertex=pvSource, muons=muSource))
-                    if btagInfo == 'softPFMuonsTagInfosCA15':
-                        setattr(process, btagInfo+_labelName+postfix, btag.softPFMuonsTagInfosCA15.clone(jets = jetSource, primaryVertex=pvSource, muons=muSource))
                     if btagInfo == 'softPFElectronsTagInfos':
                         setattr(process, btagInfo+_labelName+postfix, btag.softPFElectronsTagInfos.clone(jets = jetSource, primaryVertex=pvSource, electrons=elSource))
-                    if btagInfo == 'softPFElectronsTagInfosAK8':
-                        setattr(process, btagInfo+_labelName+postfix, btag.softPFElectronsTagInfosAK8.clone(jets = jetSource, primaryVertex=pvSource, electrons=elSource))
-                    if btagInfo == 'softPFElectronsTagInfosCA15':
-                        setattr(process, btagInfo+_labelName+postfix, btag.softPFElectronsTagInfosCA15.clone(jets = jetSource, primaryVertex=pvSource, electrons=elSource))
                     acceptedTagInfos.append(btagInfo)
                 elif hasattr(toptag, btagInfo) :
                     acceptedTagInfos.append(btagInfo)
