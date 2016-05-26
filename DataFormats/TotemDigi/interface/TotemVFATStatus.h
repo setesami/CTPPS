@@ -52,7 +52,7 @@ class TotemVFATStatus
 
     inline uint8_t getChipPosition() const { return chipPosition; }
     inline void setChipPosition(uint8_t _cp) { chipPosition = _cp; }
-    
+
     inline void setMissing(bool val = true) { status[0] = val; }
     inline void setIDMismatch(bool val = true) { status[1] = val; }
     inline void setFootprintError(bool val = true) { status[2] = val; }

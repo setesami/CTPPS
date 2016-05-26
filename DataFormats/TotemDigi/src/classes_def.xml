@@ -23,7 +23,7 @@
 
   <class name="std::bitset<8>"/>
   <class name="edm::Wrapper<std::bitset<8> >"/>
-    
+
   <class name="TotemFEDInfo" ClassVersion="2">
     <version ClassVersion="2" checksum="2844972317"/>
   </class>
