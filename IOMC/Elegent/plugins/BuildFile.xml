@@ -1,0 +1,11 @@
+<library name="IOMCElegentPlugins" file="*.cc">
+	<flags EDM_PLUGIN="1"/>
+
+	<flags cxxflags="-O3 -g3"/>
+
+	<use name="FWCore/Framework"/>
+	<use name="SimDataFormats/GeneratorProducts"/>
+	<use name="IOMC/Elegent"/>
+	<use name="hepmc"/>
+	<use name="root"/>
+</library>

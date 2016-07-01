@@ -1,0 +1,31 @@
+#!/bin/bash
+
+html_file="index.html"
+distribution_dir="../distributions"
+
+pp_energies="23 31 53 200 2760 7000 8000 13000 14000" 
+app_energies="31 53 546 630 1800" 
+
+# make subdirectories
+for E in $pp_energies
+do
+	mkdir -p "pp,${E}GeV"
+done
+
+for E in $app_energies
+do
+	mkdir -p "app,${E}GeV"
+done
+
+# prepare and run Asymptote job
+(
+	echo "import code;"
+	echo "StartJob(\"$html_file\", \"$distribution_dir\");"
+	echo "MakePlots(\"$pp_energies\", \"$app_energies\");"
+	echo "EndJob();"
+) > "job.asy"
+
+asy -globalwrite "job.asy"
+
+# clean up
+rm "job.asy"

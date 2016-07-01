@@ -1,0 +1,24 @@
+#!/bin/bash
+
+function Generate()
+{
+	local mode="$1"
+
+	echo ">> Generate: mode = $mode"
+
+	tag="s-distributions,${mode}"
+
+	generator="../bin/ElegentSDistributionSampler"
+	models="block [06];bourrely [03];islam (hp) [06,09];islam (lxg) [06,09];jenkovszky [11];petrov (2p) [02];petrov (3p) [02]"
+	$generator "-$mode" -output "$tag.root" -models "$models" &> "$tag.log"
+
+	tar czf "$tag.tar.gz" "$tag.root" "$tag.log"
+
+	#rm "$tag.root"
+	#rm "$tag.log"
+}
+
+#----------------------------------------------------------------------------------------------------
+
+Generate "pp" &
+Generate "app" &

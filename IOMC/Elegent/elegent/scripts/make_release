@@ -1,0 +1,29 @@
+#!/bin/bash
+
+if [ "$1" = "" ]
+then
+	echo "Please specify release number"
+	exit 1
+fi
+
+tarFile="elegent-$1.tar.gz"
+
+prefix="../"
+if [ -d "interface" ]
+then
+	prefix="./"
+fi
+
+tar czf "$tarFile" \
+		"$prefix/interface" \
+		"$prefix/distributions/generate_t_distributions" \
+		"$prefix/distributions/generate_b_distributions" \
+		"$prefix/distributions/generate_s_distributions" \
+		"$prefix/plots/code.asy" \
+		"$prefix/plots/generate_plots" \
+		"$prefix/src" \
+		"$prefix/CHANGELOG" \
+		"$prefix/Doxyfile" \
+		"$prefix/README" \
+		"$prefix/TODO" \
+		"$prefix/makefile" \

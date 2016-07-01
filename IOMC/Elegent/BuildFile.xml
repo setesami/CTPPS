@@ -1,0 +1,11 @@
+<use name="FWCore/Framework"/>
+<use name="SimDataFormats/GeneratorProducts"/>
+<use name="hepmc"/>
+<use name="root"/>
+<use name="CLHEP"/>
+
+<flags cxxflags="-O3 -g3 -I$(CMSSW_BASE)/src/IOMC/Elegent/elegent"/>
+
+<export>
+	<lib name="1"/>
+</export>

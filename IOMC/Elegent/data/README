@@ -1,0 +1,9 @@
+More datasheets (t-distribution files) can be obtained at:
+	http://elegent.hepforge.org/
+
+Naming scheme:
+	t-distributions,<particle mode>,<energy>GeV.root
+particle mode can be
+	pp	for proton-proton collisions
+	app	for antiproton-proton collisions
+energy corresponds to sqrt(s)

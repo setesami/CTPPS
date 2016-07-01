@@ -1,0 +1,41 @@
+* BH model - problem with N_g
+
+* BSW model - investigate first, then send email
+ - problem with complex logarithm
+ - factor in front of the regeon term
+ - energy dependence S0 does actually depend on t.
+ - signatures of reggeons?
+ - make sure that the integration accuracy is sufficient!
+
+* model problems (BH, BSW) to Wiki
+
+* finish Wiki
+
+* add `environment' hints to README
+
+* README
+ - the names and a brief description of all the files that make up the package
+ - clear instructions on the installation and execution of the program
+
+* update make_release
+
+* update TOTEM TWiki, cfg files (new label scheme, how to get available model list)
+
+* check compatibility with old curves
+
+* plots: grid in Asymptote
+
+* problem with low |t| sampling: visible in B(t)
+
+* web - distributions - naming scheme
+
+
+-------------------- long term --------------------
+
+* add more models (e.g. Brazilian group)?
+
+* Jenkovszky model: other trajectory parameterisations than Eq. (8)?
+
+* custom integration --> some standard library (e.g. GSL)
+
+* use of GNU automake system

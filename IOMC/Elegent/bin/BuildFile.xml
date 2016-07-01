@@ -1,0 +1,15 @@
+<use name="IOMC/Elegent"/>
+
+<flags cxxflags="-O3 -g3 -I$(CMSSW_BASE)/src/IOMC/Elegent/elegent"/>
+
+<bin name="ElegentTest" file="ElegentTest.cc">
+</bin>
+
+<bin name="ElegentTDistributionSampler" file="ElegentTDistributionSampler.cc">
+</bin>
+
+<bin name="ElegentBDistributionSampler" file="ElegentBDistributionSampler.cc">
+</bin>
+
+<bin name="ElegentSDistributionSampler" file="ElegentSDistributionSampler.cc">
+</bin>

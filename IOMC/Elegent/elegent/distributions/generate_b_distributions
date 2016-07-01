@@ -1,0 +1,38 @@
+#!/bin/bash
+
+function Generate()
+{
+	local mode="$1"
+	local energy="$2"
+
+	echo ">> Generate: mode = $mode, sqrt(s) = $energy GeV"
+
+	tag="b-distributions,${mode},${energy}GeV"
+
+	generator="../bin/ElegentBDistributionSampler"
+	models="block [06];bourrely [03];islam (hp) [06,09];islam (lxg) [06,09];jenkovszky [11];petrov (2p) [02];petrov (3p) [02]"
+	$generator "-$mode" -energy "$energy" -output "$tag.root" -models "$models" &> "$tag.log"
+
+	tar czf "$tag.tar.gz" "$tag.root" "$tag.log"
+
+	#rm "$tag.root"
+	#rm "$tag.log"
+}
+
+#----------------------------------------------------------------------------------------------------
+
+Generate "pp" "23" &
+Generate "pp" "31" &
+Generate "pp" "53" &
+Generate "pp" "200" &
+Generate "pp" "2760" &
+Generate "pp" "7000" &
+Generate "pp" "8000" &
+Generate "pp" "13000" &
+Generate "pp" "14000" &
+
+Generate "app" "31" &
+Generate "app" "53" &
+Generate "app" "546" &
+Generate "app" "630" &
+Generate "app" "1800" &

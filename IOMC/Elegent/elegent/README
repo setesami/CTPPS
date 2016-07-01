@@ -1,0 +1,75 @@
+----------------------------------------------------------------------------------------------------
+PACKGAGE CONTENTS
+----------------------------------------------------------------------------------------------------
+
+interface/Math.h, src/Math.cc : implementation of numerical integration routines
+
+interface/Constants.h, src/Constants.cc : mathematical and physics constants as well as process
+description (proton-proton or proton-antiproton mode, cetre-of-mass energy)
+
+interface/Model.h, src/Model.cc : the base class for all hadronic models
+
+interface/*Model.h, src/*Model.cc : implementation of hadronic models
+
+interface/CoulombInterference.h, src/CoulombInterference.cc : implementation of Coulomb amplitude
+and Coulomb-hadronic interference models
+
+interface/ModelFactory.h, src/ModelFactory.cc : class to instantiate a hadronic model class
+specified by name
+
+interface/Generator.h, src/Generator.cc : Monte-Carlo event generator according to cumulative
+distribution function
+
+src/ElegentTest.cc : an example application of the Generator class
+
+src/Elegent?DistributionSampler.cc : set of programs to sample various distributions in
+four-momentum transfer squared (t), impact parameter (b) or collision energy (s)
+
+distributions/generate_?_distributions : scripts to generate t-, b- and s- distribution at both
+collision modes (pp and app) and at various energies of interest
+
+plots/generate_plots, plots/code.asy : scripts to produce the plots available at the project web
+
+scripts/make_release : script to make a release tar ball
+
+test/package_test : script to test various functionalities of the package
+
+CHANGELOG : history of changes relevant for a user
+
+Doxyfile : configuration file for code documentation generation by Doxygen
+
+makefile : build system configuration
+
+README : this file
+
+TODO : a "to do" list
+
+
+----------------------------------------------------------------------------------------------------
+USAGE INSTRUCTIONS
+----------------------------------------------------------------------------------------------------
+
+DOWNLOAD
+
+Either download an Elegent release (http://www.hepforge.org/downloads/elegent) or checkout the code
+from Subversion:
+	svn co http://elegent.hepforge.org/svn/trunk
+
+BUILD
+
+Edit the `makefile' such that `ROOTDIR' and `HepMCDIR' point to your ROOT and HepMC installations.
+The run
+	make
+
+ENVIRONMENT
+
+Depending on your system, you might want to add
+  * `lib' sub-directory to the `LD_LIBRARY_PATH' environment variable and
+  * `bin' sub-directory to `PATH'
+before your run any of the programs below.
+
+PROGRAM EXECUTION
+
+All executable programs can be run with `-h' option in oder to get help. Alternatively, you can
+consult the Wiki pages:
+	http://elegent.hepforge.org/trac/wiki

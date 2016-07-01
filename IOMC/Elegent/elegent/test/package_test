@@ -1,0 +1,42 @@
+#!/bin/bash
+
+# ----------------------- print available models -----------------------
+
+# works with B and S-DistributionSampler as well
+../bin/ElegentTDistributionSampler -model-list
+
+
+
+# -------------------- test t-distribution sampling --------------------
+
+../bin/ElegentTDistributionSampler -h
+../bin/ElegentTDistributionSampler\
+		-energy 7000 -pp -models "petrov (3p) [02]" -output "t-distribution_test.root"\
+		-model-N 100 -model-tmax 20\
+		-full-N 50 -full-tmax 10\
+		-lowt-N 50 -lowt-tmax 1
+
+
+
+# -------------------- test b-distribution sampling --------------------
+
+../bin/ElegentBDistributionSampler -h
+../bin/ElegentBDistributionSampler\
+		 -energy 7000 -pp -models "petrov (3p) [02]" -output "b-distribution_test.root"\
+		 -N 100 -bmin 0 -bmax 10
+
+
+
+# -------------------- test s-distribution sampling --------------------
+
+../bin/ElegentSDistributionSampler -h
+../bin/ElegentSDistributionSampler\
+		 -pp -models "petrov (3p) [02]" -output "s-distribution_test.root"\
+		 -N 100 -Wmin 2 -Wmax "1E5"
+
+
+
+# ------------------ test Monte-Carlo event generator ------------------
+
+../bin/ElegentTest -h
+../bin/ElegentTest "t-distribution_test.root" "full range/petrov (3p) [02]/PH/cumulative cross-section" 0 10 3
