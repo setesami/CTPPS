@@ -1,0 +1,11 @@
+#ifndef SimG4Core_TotemRPProtonTransportParametrization_LHC_OPTICS_APPROXIMATOR_H
+#define SimG4Core_TotemRPProtonTransportParametrization_LHC_OPTICS_APPROXIMATOR_H
+
+#ifdef __CINT__
+	#include "SimG4Core/TotemRPProtonTransportParametrization/interface/LHCOpticsApproximator_rootcint.h"
+#else
+	#include "SimG4Core/TotemRPProtonTransportParametrization/interface/LHCOpticsApproximator_gcc.h"
+#endif // __CINT__
+
+#endif  //SimG4Core_TotemRPProtonTransportParametrization_LHC_OPTICS_APPROXIMATOR_H
+
