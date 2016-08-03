@@ -11,7 +11,6 @@
 #include <xercesc/dom/DOM.hpp>
 #include <xercesc/dom/DOMNodeList.hpp>
 #include <xercesc/dom/DOMElement.hpp>
-#include <xercesc/dom/DOMWriter.hpp>
 #include <xercesc/dom/DOMImplementation.hpp>
 #include <xercesc/dom/DOMImplementationLS.hpp>
 #include <xercesc/util/XMLString.hpp>
@@ -30,7 +29,7 @@
 XERCES_CPP_NAMESPACE_USE
 
 void
-print (const XMLCh * ch);
+        print(const XMLCh *ch);
 
 
 // Represents one configuration file with multiple rows on two levels
@@ -41,88 +40,127 @@ print (const XMLCh * ch);
 //  <item id=.. />
 // </config>
 // Provides methods for accessing to file, and getting/setting parameters
-class RPXMLConfig
-{
+class RPXMLConfig {
 
 public:
 
 // Constructor and destructor
-  RPXMLConfig ();
-  ~RPXMLConfig ();
+    RPXMLConfig();
+
+    ~RPXMLConfig();
 
 // Getters and setters
-  void setFilename (std::string filename);
-  std::string getFilename ();
+    void setFilename(std::string filename);
+
+    std::string getFilename();
 
 // First level access
-  std::vector<int> getIds();
-  char *get (int id, const char *name);
-  template<class F>
-    F get (int id, std::string name)
-    {
+    std::vector<int> getIds();
+
+    char *get(int id, const char *name);
+
+    template<class F>
+    F get(int id, std::string name) {
 //      std::cout<<this->get(id, name.c_str())<<std::endl;
-  //    std::cout<<std::string( this->get(id, name.c_str()) )<<std::endl;
-      std::istringstream sin(std::string(this->get(id, name.c_str() )));
-      F val;
-    //  std::cout<<val<<std::endl;
-      sin>>val;
-      //std::cout<<val<<std::endl;
-      return val;
+        //    std::cout<<std::string( this->get(id, name.c_str()) )<<std::endl;
+        std::istringstream sin(std::string(this->get(id, name.c_str())));
+        F val;
+        //  std::cout<<val<<std::endl;
+        sin >> val;
+        //std::cout<<val<<std::endl;
+        return val;
     }
-  int getInt (int id, char *name);
-  double getDouble (int id, char *name);
-  void set (int id, const char *name, const char *value);
-  template<class F>
-    void set (int id, std::string name, F value) {std::ostringstream sout; sout<<value; set(id, name.c_str(), sout.str());}
-  void setInt (int id, char *name, const int value);
-  void setDouble (int id, char *name, const double value);
+
+    int getInt(int id, char *name);
+
+    double getDouble(int id, char *name);
+
+    void set(int id, const char *name, const char *value);
+
+    template<class F>
+    void set(int id, std::string name, F value) {
+        std::ostringstream sout;
+        sout << value;
+        set(id, name.c_str(), sout.str());
+    }
+
+    void setInt(int id, char *name, const int value);
+
+    void setDouble(int id, char *name, const double value);
 
 // Second level access
-  std::vector<int> getIds(int id1);
-  char *get (int id1, int id2, const char *name);
-  template<class F>
-    F get (int id1, int id2, std::string name) {std::istringstream sin(std::string(this->get(id1, id2, name.c_str() ))); F val; sin>>val; return val;}
-  int getInt (int id1, int id2, char *name);
-  double getDouble (int id1, int id2, char *name);
-  void set (int id1, int id2, const char *name, const char *value);
-  template<class F>
-    void set (int id1, int id2, std::string name, F value) {std::ostringstream sout; sout<<value; set(id1, id2, name.c_str(), sout.str());}
-  void setInt (int id1, int id2, char *name, const int value);
-  void setDouble (int id1, int id2, char *name, const double value);
+    std::vector<int> getIds(int id1);
+
+    char *get(int id1, int id2, const char *name);
+
+    template<class F>
+    F get(int id1, int id2, std::string name) {
+        std::istringstream sin(std::string(this->get(id1, id2, name.c_str())));
+        F val;
+        sin >> val;
+        return val;
+    }
+
+    int getInt(int id1, int id2, char *name);
+
+    double getDouble(int id1, int id2, char *name);
+
+    void set(int id1, int id2, const char *name, const char *value);
+
+    template<class F>
+    void set(int id1, int id2, std::string name, F value) {
+        std::ostringstream sout;
+        sout << value;
+        set(id1, id2, name.c_str(), sout.str());
+    }
+
+    void setInt(int id1, int id2, char *name, const int value);
+
+    void setDouble(int id1, int id2, char *name, const double value);
 
 // Methods for accesing file
-  void save ();
-  void save (const std::string filename);
-  void read ();
-  void read (const std::string filename);
+    void save();
+
+    void save(const std::string filename);
+
+    void read();
+
+    void read(const std::string filename);
 
 
 private:
 
-  bool isEmpty();
-  bool containItem(const int id);
-  bool containSubItem(const int id1, const int id2);
-  bool containAttr(const int id, const char * name);
-  void addItem(const int id);
-  void addSubItem(const int id1, const int id2);
-  void parse(const std::string filename);
+    bool isEmpty();
+
+    bool containItem(const int id);
+
+    bool containSubItem(const int id1, const int id2);
+
+    bool containAttr(const int id, const char *name);
+
+    void addItem(const int id);
+
+    void addSubItem(const int id1, const int id2);
+
+    void parse(const std::string filename);
 
 // default filename
-  std::string fileName;
+    std::string fileName;
 // parser
-  DOMBuilder * parser;
+    DOMLSParser *parser;
 // document
- DOMDocument * doc;
+    DOMDocument *doc;
 // main node
- DOMNode * mn;
-// writer
- DOMWriter * writer;
-
+    DOMNode *mn;
+// serializer
+    DOMLSSerializer *theSerializer;
+//serializer config
+    DOMConfiguration *dc;
 // Constants
- XMLCh * id_string;
- XMLCh * subitem_string;
- XMLCh * item_string;
- XMLCh * config_string;
+    XMLCh *id_string;
+    XMLCh *subitem_string;
+    XMLCh *item_string;
+    XMLCh *config_string;
 
 
 };
