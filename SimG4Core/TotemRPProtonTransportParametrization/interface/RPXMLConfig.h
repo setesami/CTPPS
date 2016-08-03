@@ -153,7 +153,7 @@ private:
 // main node
     DOMNode *mn;
 // serializer
-    DOMLSSerializer *theSerializer;
+    DOMLSSerializer *serializer;
 //serializer config
     DOMConfiguration *dc;
 // Constants
@@ -161,6 +161,9 @@ private:
     XMLCh *subitem_string;
     XMLCh *item_string;
     XMLCh *config_string;
+
+    //Implementation
+    DOMImplementation *impl;
 
 
 };
