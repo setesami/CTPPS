@@ -11,6 +11,7 @@
 <use   name="SimG4Core/Physics"/>
 <use   name="SimG4Core/SensitiveDetector"/>
 <use   name="SimG4Core/Watcher"/>
+<use   name="SimG4Core/TotemRPProtonTransportParametrization"/>
 <use   name="SimGeneral/HepPDTRecord"/>
 <use   name="SimGeneral/GFlash"/>
 <use   name="FWCore/ParameterSet"/>
