@@ -25,7 +25,7 @@
 
 //class ProtonTransportRcd : public edm::eventsetup::EventSetupRecordImplementation<ProtonTransportRcd> {};
 class ProtonTransportRcd : public edm::eventsetup::DependentRecordImplementation<ProtonTransportRcd, 
-  boost::mpl::vector<BeamOpticsParamsRcd, RealGeometryRecord> >
+  boost::mpl::vector<BeamOpticsParamsRcd, VeryForwardRealGeometryRecord> >
 {
 };
  
