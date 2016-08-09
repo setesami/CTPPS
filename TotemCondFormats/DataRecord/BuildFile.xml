@@ -1,6 +1,6 @@
 <use   name="FWCore/Framework"/>
 <use   name="boost"/>
-<use   name="Geometry/TotemRecords"/>
+<use   name="Geometry/Records"/>
 <export>
   <lib   name="1"/>
 </export>
