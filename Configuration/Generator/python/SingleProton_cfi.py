@@ -3,13 +3,13 @@ import FWCore.ParameterSet.Config as cms
 generator = cms.EDProducer("FlatRandomEGunProducer",
     PGunParameters = cms.PSet(
         PartID = cms.vint32(2212),
-        MaxEta = cms.double(2.5),
-        MaxPhi = cms.double(3.14159265359),
-        MinEta = cms.double(-2.5),
-        MinE = cms.double(999.99),
-        MinPhi = cms.double(-3.14159265359), ## in radians
+        MaxEta = cms.double(8),
+        MaxPhi = cms.double(3.141592654),
+        MinEta = cms.double(-8),
+        MinE = cms.double(64999),
+        MinPhi = cms.double(-3.141592654), ## in radians
 
-        MaxE = cms.double(1000.01)
+        MaxE = cms.double(65000)
     ),
     Verbosity = cms.untracked.int32(10), ## set to 1 (or greater)  for printouts
 
