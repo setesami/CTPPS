@@ -25,12 +25,12 @@ BeamOpticsParamsESSource::~BeamOpticsParamsESSource()
   
 }
 
-std::auto_ptr<BeamOpticsParams> BeamOpticsParamsESSource::produce(const BeamOpticsParamsRcd & )
+std::unique_ptr<BeamOpticsParams> BeamOpticsParamsESSource::produce(const BeamOpticsParamsRcd & )
 {
   BeamOpticsParams * obj = new BeamOpticsParams(conf_);
   std::cout << ">> BeamOpticsParamsESSource::produce : Loaded optics with energy " << obj->GetBeamEnergy()
 	  << " GeV and beta* " << obj->GetBetaStarX() << "/" << obj->GetBetaStarY() << " m" << std::endl;
-  return std::auto_ptr<BeamOpticsParams>(obj);
+  return std::unique_ptr<BeamOpticsParams>(obj);
 }
 
 void BeamOpticsParamsESSource::setIntervalFor( const edm::eventsetup::EventSetupRecordKey&, 

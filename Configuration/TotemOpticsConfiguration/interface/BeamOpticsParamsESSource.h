@@ -20,7 +20,7 @@ class BeamOpticsParamsESSource : public edm::ESProducer, public edm::EventSetupR
   
   //      typedef edm::ESProducts<> ReturnType;
   
-  virtual std::auto_ptr<BeamOpticsParams> produce(const BeamOpticsParamsRcd &);
+  virtual std::unique_ptr<BeamOpticsParams> produce(const BeamOpticsParamsRcd &);
   
   protected:
     virtual void setIntervalFor( const edm::eventsetup::EventSetupRecordKey&,
