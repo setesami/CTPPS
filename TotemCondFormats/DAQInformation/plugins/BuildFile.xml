@@ -1,7 +1,0 @@
-<library   name="TotemCondFormatsDAQInformationPlugins" file="*.cc">
-  <flags   EDM_PLUGIN="1"/>
-  <use   name="FWCore/Framework"/>
-  <use   name="TotemCondFormats/DataRecord"/>
-  <use   name="TotemCondFormats/DAQInformation"/>
-  <use   name="xerces-c"/>
-</library>
