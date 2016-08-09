@@ -1,0 +1,63 @@
+<top>
+
+<arm id="0">
+
+  <t2_half id="0">
+
+    <t2_detector position="0">
+
+      <vfat iid="2" fullmask="no">
+        <channel ch_num="75"/>
+        <channel ch_num="76"/>
+        <channel ch_num="77"/>
+        <channel ch_num="78"/>
+        <channel ch_num="79"/>
+        <channel ch_num="80"/>
+        <channel ch_num="84"/>
+      </vfat>
+
+      <vfat iid="3" fullmask="no">
+        <channel ch_num="51"/>
+      </vfat>
+
+      <vfat iid="4" fullmask="no">
+        <channel ch_num="13"/>
+      </vfat>
+
+      <vfat iid="7" fullmask="no">
+        <channel ch_num="4"/>
+      </vfat>
+
+      <vfat iid="9" fullmask="no">
+        <channel ch_num="14"/>
+        <channel ch_num="57"/>
+        <channel ch_num="61"/>
+      </vfat>
+
+      <vfat iid="11" fullmask="no">
+        <channel ch_num="38"/>
+      </vfat>
+
+      <vfat iid="12" fullmask="no">
+        <channel ch_num="108"/>
+        <channel ch_num="109"/>
+        <channel ch_num="110"/>
+        <channel ch_num="111"/>
+        <channel ch_num="112"/>
+        <channel ch_num="113"/>
+        <channel ch_num="114"/>
+        <channel ch_num="115"/>
+      </vfat>
+
+      <vfat iid="14" fullmask="no">
+        <channel ch_num="103"/>
+      </vfat>
+
+    </t2_detector>
+
+  </t2_half>
+
+</arm>
+
+</top>
+

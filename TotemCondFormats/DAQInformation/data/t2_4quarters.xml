@@ -1,0 +1,887 @@
+<top>
+
+<arm id="0">
+
+<t2_half  id="0">
+	
+
+	<t2_detector position="0">			
+	<vfat hw_id="0xA2F0"       verbose="255"	IdxInFiber="12"  GOHId="2"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="0" />
+	<vfat hw_id="0xA870"       verbose="255"	IdxInFiber="9"  GOHId="2"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="1" />
+	<vfat hw_id="0x9671"       verbose="255"	IdxInFiber="8"  GOHId="2"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="2" />
+	<vfat hw_id="0xBA71"       verbose="255"	IdxInFiber="15"  GOHId="2"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="3" />
+	<vfat hw_id="0xA6EE"       verbose="255"	IdxInFiber="0"  GOHId="1"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0x9EEE"       verbose="255"	IdxInFiber="11"  GOHId="2"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="5" />
+	<vfat hw_id="0x9871"	verbose="255"	IdxInFiber="14"  GOHId="2"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="6" />
+	<vfat hw_id="0x8AEE"	verbose="255"	IdxInFiber="13"  GOHId="2"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="7" />
+	<vfat hw_id="0xD460"	verbose="255"	IdxInFiber="10"  GOHId="2"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="8" />
+	<vfat hw_id="0x96EE"	verbose="255"	IdxInFiber="3"  GOHId="2"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="9" />
+	<vfat hw_id="0xDEEE"	verbose="255"	IdxInFiber="2"  GOHId="2"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="10" />
+	<vfat hw_id="0xB071"	verbose="255"	IdxInFiber="5"  GOHId="2"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="11" />
+	<vfat hw_id="0xD4E0"	verbose="255"	IdxInFiber="0"  GOHId="2"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="12" />
+	<vfat hw_id="0xB8EE"	verbose="255"	IdxInFiber="1"  GOHId="2"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="13" />
+	<vfat hw_id="0xE660"	verbose="255"	IdxInFiber="4"  GOHId="2"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="14" />
+	<vfat hw_id="0xF270"	verbose="255"	IdxInFiber="7"  GOHId="2"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="15" />
+	<vfat hw_id="0xD270"	verbose="255"	IdxInFiber="6"  GOHId="2"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="16" />
+	</t2_detector>
+
+	<t2_detector position="1">		 			
+	<vfat hw_id="0xEC70"	verbose="255"	IdxInFiber="13"  GOHId="1"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="0" />
+	<vfat hw_id="0xEAF0"	verbose="255"	IdxInFiber="8"  GOHId="1"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="1" />
+	<vfat hw_id="0xFCEE"	verbose="255"	IdxInFiber="9"  GOHId="1"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="2" />
+	<vfat hw_id="0x946E"	verbose="255"	IdxInFiber="2"  GOHId="1"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="3" />
+	<vfat hw_id="0x8EEE"	verbose="255"	IdxInFiber="15"  GOHId="1"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0xF46E"	verbose="255"	IdxInFiber="6"  GOHId="1"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="5" />
+	<vfat hw_id="0xA671"	verbose="255"	IdxInFiber="1"  GOHId="0"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"    id="6" />
+	<vfat hw_id="0xCAF1"	verbose="255"	IdxInFiber="4"  GOHId="1"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="7" />
+	<vfat hw_id="0xD4EE"	verbose="255"	IdxInFiber="11"  GOHId="1"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="8" />
+	<vfat hw_id="0x92EE"	verbose="255"	IdxInFiber="14"  GOHId="1"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="9" />
+	<vfat hw_id="0xF66E"	verbose="255"	IdxInFiber="3"  GOHId="1"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="10" />
+	<vfat hw_id="0x9CEE"	verbose="255"	IdxInFiber="12"  GOHId="1"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="11" />
+	<vfat hw_id="0xBCEE"	verbose="255"	IdxInFiber="1"  GOHId="1"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="12" />
+	<vfat hw_id="0xF2EE"	verbose="255"	IdxInFiber="0"  GOHId="0"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"    id="13" />
+	<vfat hw_id="0xB6EE"	verbose="255"	IdxInFiber="5"  GOHId="1"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="14" />
+	<vfat hw_id="0xF670"	verbose="255"	IdxInFiber="10"  GOHId="1"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="15" />
+	<vfat hw_id="0xB270"	verbose="255"	IdxInFiber="7"  GOHId="1"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="16" />				
+	</t2_detector>
+	
+	<t2_detector position="2">		 			
+	<vfat hw_id="0xB0F0"	verbose="255"	IdxInFiber="14"  GOHId="0"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="0" />
+	<vfat hw_id="0xC0F0"	verbose="255"	IdxInFiber="11"  GOHId="0"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="1" />
+	<vfat hw_id="0xF4DC"	verbose="255"	IdxInFiber="10"  GOHId="0"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="2" />
+        <vfat hw_id="0xF8F1"       verbose="255"	  IdxInFiber="15"  GOHId="3"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="3" />
+	<vfat hw_id="0x9860"	verbose="255"	IdxInFiber="12"  GOHId="3"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0x90F1"	verbose="255"	IdxInFiber="13"  GOHId="0"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="5" />
+	<vfat hw_id="0xA6F1"	verbose="255"	IdxInFiber="14"  GOHId="3"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="6" />
+	<vfat hw_id="0xAE6E"	verbose="255"	IdxInFiber="15"  GOHId="0"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="7" />
+	<vfat hw_id="0x8A6E"	verbose="255"	IdxInFiber="12"  GOHId="0"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="8" />
+	<vfat hw_id="0xB660"	verbose="255"	IdxInFiber="5"  GOHId="0"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"    id="9" />
+	<vfat hw_id="0xE6E0"	verbose="255"	IdxInFiber="4"  GOHId="0"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"    id="10" />
+	<vfat hw_id="0xAEF1"	verbose="255"	IdxInFiber="7"  GOHId="0"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"    id="11" />
+	<vfat hw_id="0xEA71"	verbose="255"	IdxInFiber="2"  GOHId="0"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"    id="12" />
+	<vfat hw_id="0xF6F1"	verbose="255"	IdxInFiber="3"  GOHId="0"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"    id="13" />
+	<vfat hw_id="0xC4EE"	verbose="255"	IdxInFiber="6"  GOHId="0"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"    id="14" />
+	<vfat hw_id="0xD870"	verbose="255"	IdxInFiber="9"  GOHId="0"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"    id="15" />
+	<vfat hw_id="0xDAF0"	verbose="255"	IdxInFiber="8"  GOHId="0"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"    id="16" />
+	</t2_detector>
+	
+	<t2_detector position="3">		 			
+	<vfat hw_id="0xC270"	verbose="255"	IdxInFiber="9"  GOHId="3"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="0" />
+	<vfat hw_id="0x96F0"	verbose="255"	IdxInFiber="4"  GOHId="3"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="1" />
+	<vfat hw_id="0x9C6E"	verbose="255"	IdxInFiber="5"  GOHId="3"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="2" />
+	<vfat hw_id="0xA4EE"	verbose="255"	IdxInFiber="10"  GOHId="3"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="3" />
+	<vfat hw_id="0x92E0"	verbose="255"	IdxInFiber="11"  GOHId="3"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0x885C"	verbose="255"	IdxInFiber="6"  GOHId="3"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="5" />
+	<vfat hw_id="0xB4EE"	verbose="255"	IdxInFiber="13"  GOHId="3"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="6" />
+	<vfat hw_id="0xDAE0"	verbose="255"	IdxInFiber="8"  GOHId="3"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="7" />
+	<vfat hw_id="0xCA6E"	verbose="255"	IdxInFiber="7"  GOHId="3"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="8" />
+	<vfat hw_id="0x9A6E"	verbose="255"	IdxInFiber="14"  GOHId="4"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="9" />
+	<vfat hw_id="0x966E"	verbose="255"	IdxInFiber="15"  GOHId="4"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="10" />
+	<vfat hw_id="0x8AF1"	verbose="255"	IdxInFiber="0"  GOHId="3"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="11" />
+	<vfat hw_id="0x8EE0"	verbose="255"	IdxInFiber="13"  GOHId="4"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="12" />
+	<vfat hw_id="0xBE6E"	verbose="255"	IdxInFiber="12"  GOHId="4"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="13" />
+	<vfat hw_id="0xF6E0"	verbose="255"	IdxInFiber="1"  GOHId="3"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="14" />
+	<vfat hw_id="0xEA70"	verbose="255"	IdxInFiber="2"  GOHId="3"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="15" />
+	<vfat hw_id="0xECF0"	verbose="255"	IdxInFiber="3"  GOHId="3"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="16" />
+					
+	</t2_detector>
+	
+	<t2_detector position="4">		 			
+	<vfat hw_id="0xB6F0"	verbose="255"	 IdxInFiber="4"  GOHId="4"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="0" />
+	<vfat hw_id="0xE470"	verbose="255"	 IdxInFiber="6"  GOHId="4"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="1" />
+	<vfat hw_id="0xA8F1"	verbose="255"	 IdxInFiber="0"  GOHId="4"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="2" />
+	<vfat hw_id="0xB6E0"	verbose="255"	 IdxInFiber="11"  GOHId="4"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="3" />
+	<vfat hw_id="0xE4EE"	verbose="255"	 IdxInFiber="8"  GOHId="4"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0xC6F1"	verbose="255"	 IdxInFiber="7"  GOHId="4"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="5" />
+	<vfat hw_id="0xFC6E"	verbose="255"	 IdxInFiber="10"  GOHId="4"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="6" />
+	<vfat hw_id="0xE46E"	verbose="255"	 IdxInFiber="9"  GOHId="4"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="7" />
+	<vfat hw_id="0xD871"	verbose="255"	 IdxInFiber="2"  GOHId="4"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="8" /> 
+	<vfat hw_id="0xEAF1"	verbose="255"	 IdxInFiber="10"  GOHId="5"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="9" />
+	<vfat hw_id="0xEAE0"	verbose="255"	 IdxInFiber="8"  GOHId="5"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="10" />
+	<vfat hw_id="0xD2EE"	verbose="255"	 IdxInFiber="3"  GOHId="4"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="11" />
+	<vfat hw_id="0xB8E0"	verbose="255"	 IdxInFiber="6"  GOHId="5"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="12" />
+        <vfat hw_id="0x886E"	verbose="255"	 IdxInFiber="1"  GOHId="4"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="13" />
+	<vfat hw_id="0x98E0"	verbose="255"	 IdxInFiber="12"  GOHId="5"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="14" />
+	<vfat hw_id="0xD6F0"	verbose="255"	 IdxInFiber="5"  GOHId="4"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="15" />
+	<vfat hw_id="0x94F0"	verbose="255"	 IdxInFiber="14"  GOHId="5"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="16" />
+	</t2_detector>
+	
+	<t2_detector position="5">		 			
+	<vfat hw_id="0xDCF0"	verbose="255"	IdxInFiber="9"  GOHId="5"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"    id="0" />
+	<vfat hw_id="0xE8F0"	verbose="255"	IdxInFiber="11"  GOHId="5"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"    id="1" />
+	<vfat hw_id="0xC671"	verbose="255"	IdxInFiber="5"  GOHId="5"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"    id="2" />
+	<vfat hw_id="0xEEE0"	verbose="255"	IdxInFiber="4"  GOHId="5"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"    id="3" />
+	<vfat hw_id="0xE4E0"	verbose="255"	IdxInFiber="13"  GOHId="5"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0xAAEE"	verbose="255"	IdxInFiber="0"  GOHId="5"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"    id="5" />
+	<vfat hw_id="0xEC71"	verbose="255"	IdxInFiber="15"  GOHId="5"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"    id="6" />
+        <vfat hw_id="0x9E71"	verbose="255"	IdxInFiber="2"  GOHId="5"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"    id="7" />
+	<vfat hw_id="0xD660"	verbose="255"	IdxInFiber="7"  GOHId="5"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"    id="8" /> 
+	<vfat hw_id="0x8E6E"	verbose="255"	IdxInFiber="2"  GOHId="8"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="9" />
+	<vfat hw_id="0xE460"	verbose="255"	IdxInFiber="3"  GOHId="5"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"    id="10" />
+	<vfat hw_id="0xB8DC"	verbose="255"	IdxInFiber="1"  GOHId="8"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="11" />
+	<vfat hw_id="0xB66E"	verbose="255"	IdxInFiber="1"  GOHId="5"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"    id="12" />
+	<vfat hw_id="0xD66E"	verbose="255"	IdxInFiber="0"  GOHId="8"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="13" />
+	<vfat hw_id="0xF26E"	verbose="255"	IdxInFiber="3"  GOHId="8"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="14" />
+	<vfat hw_id="0x8A70"	verbose="255"	IdxInFiber="4"  GOHId="8"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="15" />
+	<vfat hw_id="0xD8F0"	verbose="255"	IdxInFiber="5"  GOHId="8"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="16" />
+	</t2_detector>
+	
+        <t2_detector position="6">		 		
+        <vfat hw_id="0x9470"	verbose="255"	IdxInFiber="2"  GOHId="7"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="0" />
+	<vfat hw_id="0xB070"	verbose="255"	IdxInFiber="15"  GOHId="8"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="1" />
+	<vfat hw_id="0xA46E"	verbose="255"	IdxInFiber="14"  GOHId="8"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="2" />
+        <vfat hw_id="0x94EE"       verbose="255"     IdxInFiber="5"  GOHId="7"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="3" />	 
+	<vfat hw_id="0xB06E"	verbose="255"	IdxInFiber="4"  GOHId="7"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0xBC6E"	verbose="255"	IdxInFiber="1"  GOHId="7"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="5" />
+	<vfat hw_id="0xB2EE"	verbose="255"	IdxInFiber="6"  GOHId="7"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="6" />
+	<vfat hw_id="0xACEE"	verbose="255"	IdxInFiber="3"  GOHId="7"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="7" />
+	<vfat hw_id="0xBAF1"	verbose="255"	IdxInFiber="0"  GOHId="7"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="8" />
+	<vfat hw_id="0xCCE0"	verbose="255"	IdxInFiber="9"  GOHId="8"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="9" />
+	<vfat hw_id="0xD8EE"	verbose="255"	IdxInFiber="8"  GOHId="8"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="10" />
+	<vfat hw_id="0xA26E"	verbose="255"	IdxInFiber="11"  GOHId="8"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="11" />
+        <vfat hw_id="0xD06E"	verbose="255"	IdxInFiber="6"  GOHId="8"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="12" />
+	<vfat hw_id="0xEAEE"	verbose="255"	IdxInFiber="7"  GOHId="8"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="13" />
+	<vfat hw_id="0x9071"	verbose="255"	IdxInFiber="10"  GOHId="8"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="14" />
+	<vfat hw_id="0xE070"	verbose="255"	IdxInFiber="13"  GOHId="8"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="15" />
+	<vfat hw_id="0xE870"	verbose="255"	IdxInFiber="12"  GOHId="8"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="16" />
+        </t2_detector>
+
+        <t2_detector position="7">		 			
+	<vfat hw_id="0xDC70"	verbose="255"	IdxInFiber="3"  GOHId="6"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"    id="0" />
+	<vfat hw_id="0xDA70"	verbose="255"	IdxInFiber="0"  GOHId="6"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"    id="1" />
+	<vfat hw_id="0xB26E"	verbose="255"	IdxInFiber="15"  GOHId="7"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="2" />
+	<vfat hw_id="0xD8E0"	verbose="255"	IdxInFiber="6"  GOHId="6"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="3" />
+	<vfat hw_id="0xC8EE"	verbose="255"	IdxInFiber="5"  GOHId="6"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0xE8F1"	verbose="255"	IdxInFiber="2"  GOHId="6"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"    id="5" />
+	<vfat hw_id="0xFE6E"	verbose="255"	IdxInFiber="7"  GOHId="6"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="6" />
+	<vfat hw_id="0xAA6E"	verbose="255"	IdxInFiber="4"  GOHId="6"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="7" />
+	<vfat hw_id="0xB86E"	verbose="255"	IdxInFiber="1"  GOHId="6"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"    id="8" />
+	<vfat hw_id="0xBEEE"	verbose="255"	IdxInFiber="10"  GOHId="7"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="9" />
+	<vfat hw_id="0x98F1"	verbose="255"	IdxInFiber="9"  GOHId="7"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="10" />
+	<vfat hw_id="0xFEEE"	verbose="255"	IdxInFiber="12"  GOHId="7"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="11" />
+	<vfat hw_id="0xB871"	verbose="255"	IdxInFiber="7"  GOHId="7"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"  id="12" />
+	<vfat hw_id="0x88EE"	verbose="255"	IdxInFiber="8"  GOHId="7"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="13" />
+	<vfat hw_id="0x906E"	verbose="255"	IdxInFiber="11"  GOHId="7"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="14" />
+	<vfat hw_id="0xD2F0"	verbose="255"	IdxInFiber="14"  GOHId="7"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="15" />
+	<vfat hw_id="0xB670"	verbose="255"	IdxInFiber="13"  GOHId="7"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="16" />
+        </t2_detector>
+
+        <t2_detector position="8">		 			
+	<vfat hw_id="0xE2F0"	verbose="255"	IdxInFiber="4"  GOHId="10"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="0" />
+	<vfat hw_id="0xE0F0"	verbose="255"	IdxInFiber="3"  GOHId="10"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="1" /> 
+<!-- above line E0F0, changed fiber from 1 to 3-->
+	<vfat hw_id="0xA0EE"	verbose="255"	IdxInFiber="0"  GOHId="10"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="2" />
+	<vfat hw_id="0xEEEE"	verbose="255"	IdxInFiber="9"  GOHId="10"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="3" />
+	<vfat hw_id="0xE26E"	verbose="255"	IdxInFiber="6"  GOHId="10"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0xA86E"	verbose="255"	IdxInFiber="5"  GOHId="10"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="5" />
+	<vfat hw_id="0x9AEE"	verbose="255"	IdxInFiber="8"  GOHId="10"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="6" />
+	<vfat hw_id="0xA06E"	verbose="255"	IdxInFiber="7"  GOHId="10"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="7" />
+	<vfat hw_id="0xCCEE"	verbose="255"	IdxInFiber="2"  GOHId="10"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="8" />
+	<vfat hw_id="0x8E60"	verbose="255"	IdxInFiber="11"  GOHId="6"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="9" />
+        <vfat hw_id="0xA66E"	verbose="255"	IdxInFiber="10"  GOHId="6"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="10" />
+	<vfat hw_id="0x90EE"	verbose="255"	IdxInFiber="13"  GOHId="6"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="11" />
+	<vfat hw_id="0xAEEE"	verbose="255"	IdxInFiber="8"  GOHId="6"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="12" />
+	<vfat hw_id="0xFAEE"	verbose="255"	IdxInFiber="9"  GOHId="6"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="13" />
+	<vfat hw_id="0xEE6E"	verbose="255"	IdxInFiber="12"  GOHId="6"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="14" />
+	<vfat hw_id="0xCEF0"	verbose="255"	IdxInFiber="15"  GOHId="6"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"  id="15" />
+        <vfat hw_id="0xFC70"	verbose="255"	IdxInFiber="14"  GOHId="6"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="16" />
+<!-- above was commented prev, but looks good now-->
+</t2_detector>
+
+        <t2_detector position="9">		 			
+	<vfat hw_id="0x8CF0"	verbose="255"	IdxInFiber="13"  GOHId="11"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="0" />
+	<vfat hw_id="0xC8F0"	verbose="255"	IdxInFiber="8"  GOHId="11"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="1" />
+	<vfat hw_id="0xA860"	verbose="255"	IdxInFiber="9"  GOHId="11"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="2" />
+	<vfat hw_id="0xF06E"	verbose="255"	IdxInFiber="14"  GOHId="11"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="3" />
+	<vfat hw_id="0xC4E0"	verbose="255"	IdxInFiber="15"  GOHId="11"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0xEA6E"	verbose="255"	IdxInFiber="10"  GOHId="11"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="5" />
+	<vfat hw_id="0x94E0"	verbose="255"	IdxInFiber="1"  GOHId="10"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="6" />
+	<vfat hw_id="0xDE60"	verbose="255"	IdxInFiber="12"  GOHId="11"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="7" />
+	<vfat hw_id="0xE6EE"	verbose="255"	IdxInFiber="11"  GOHId="11"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="8" />
+	<vfat hw_id="0xD46E"	verbose="255"	IdxInFiber="2"  GOHId="11"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="9" />
+	<vfat hw_id="0xF871"	verbose="255"	IdxInFiber="3"  GOHId="11"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="10" />
+	<vfat hw_id="0xDAEE"	verbose="255"	IdxInFiber="4"  GOHId="11"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="11" />
+	<vfat hw_id="0xC6E0"	verbose="255"	IdxInFiber="1"  GOHId="11"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="12" />
+	<vfat hw_id="0xF460"	verbose="255"	IdxInFiber="0"  GOHId="11"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="13" />
+	<vfat hw_id="0xCEEE"	verbose="255"	IdxInFiber="5"  GOHId="11"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="14" />
+	<vfat hw_id="0xD4F0"	verbose="255"	IdxInFiber="6"  GOHId="11"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="15" />
+	<vfat hw_id="0xD670"	verbose="255"	IdxInFiber="7"  GOHId="11"  OptoRxId="3" TOTFEDId="12" SubSystemId="T2"   id="16" />  
+</t2_detector>                                                                            
+</t2_half >
+
+
+<t2_half  id="1" >
+	
+
+<t2_detector position="0">			
+	<vfat hw_id="0x9AF2"       verbose="255"	IdxInFiber="12"  GOHId="2"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="0" />
+	<vfat hw_id="0xFE5C"       verbose="255"	IdxInFiber="9"  GOHId="2"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="1" />
+	<vfat hw_id="0xC6E2"       verbose="255"	IdxInFiber="8"  GOHId="2"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="2" />
+	<vfat hw_id="0xC862"       verbose="255"	IdxInFiber="15"  GOHId="2"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="3" />
+	<vfat hw_id="0x9262"       verbose="255"	IdxInFiber="0"  GOHId="1"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0xE2E2"       verbose="255"	IdxInFiber="11"  GOHId="2"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="5" />
+	<vfat hw_id="0xB4E2"	verbose="255"	IdxInFiber="14"  GOHId="2"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="6" />
+	<vfat hw_id="0x9462"	verbose="255"	IdxInFiber="13"  GOHId="2"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="7" />
+	<vfat hw_id="0x9662"	verbose="255"	IdxInFiber="10"  GOHId="2"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="8" />
+	<vfat hw_id="0xA062"	verbose="255"	IdxInFiber="3"  GOHId="2"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="9" />
+	<vfat hw_id="0xCA62"	verbose="255"	IdxInFiber="2"  GOHId="2"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="10" />
+	<vfat hw_id="0xF061"	verbose="255"	IdxInFiber="5"  GOHId="2"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="11" />
+        <vfat hw_id="0xE8E2"	verbose="255"	IdxInFiber="0"  GOHId="2"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="12" />
+        <vfat hw_id="0xDAE2"	verbose="255"	IdxInFiber="1"  GOHId="2"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="13" />
+	<vfat hw_id="0xFE62"	verbose="255"	IdxInFiber="4"  GOHId="2"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="14" />
+	<vfat hw_id="0xB65C"	verbose="255"	IdxInFiber="7"  GOHId="2"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="15" />
+	<vfat hw_id="0xC45C"	verbose="255"	IdxInFiber="6"  GOHId="2"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="16" />
+</t2_detector>
+
+
+
+
+<t2_detector position="1">		 			
+	<vfat hw_id="0xFA5D"	verbose="255"	IdxInFiber="13"  GOHId="1"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="0" />
+	<vfat hw_id="0xF45D"	verbose="255"	IdxInFiber="8"  GOHId="1"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="1" />
+	<vfat hw_id="0xE262"	verbose="255"	IdxInFiber="9"  GOHId="1"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="2" />
+	<vfat hw_id="0xBA62"	verbose="255"	IdxInFiber="2"  GOHId="1"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="3" />
+	<vfat hw_id="0x94DD"	verbose="255"	IdxInFiber="15"  GOHId="1"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0x8C62"	verbose="255"	IdxInFiber="6"  GOHId="1"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="5" />
+	<vfat hw_id="0x8EE2"	verbose="255"	IdxInFiber="1"  GOHId="0"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"    id="6" />
+	<vfat hw_id="0xC261"	verbose="255"	IdxInFiber="4"  GOHId="1"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="7" />
+	<vfat hw_id="0xEC61"	verbose="255"	IdxInFiber="11"  GOHId="1"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="8" />
+	<vfat hw_id="0x9AE2"	verbose="255"	IdxInFiber="14"  GOHId="1"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="9" />
+	<vfat hw_id="0xC262"	verbose="255"	IdxInFiber="3"  GOHId="1"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="10" />
+	<vfat hw_id="0xCE62"	verbose="255"	IdxInFiber="12"  GOHId="1"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="11" />
+	<vfat hw_id="0xECE2"	verbose="255"	IdxInFiber="1"  GOHId="1"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="12" />
+	<vfat hw_id="0xC8E2"	verbose="255"	IdxInFiber="0"  GOHId="0"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"    id="13" />
+	<vfat hw_id="0xAE61"	verbose="255"	IdxInFiber="5"  GOHId="1"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="14" />
+	<vfat hw_id="0xC8DD"	verbose="255"	IdxInFiber="10"  GOHId="1"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="15" />
+	<vfat hw_id="0xCCDD"	verbose="255"	IdxInFiber="7"  GOHId="1"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="16" />				
+</t2_detector>
+
+
+
+
+
+<t2_detector position="2">		 			
+	<vfat hw_id="0xF070"	verbose="255"	IdxInFiber="14"  GOHId="0"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="0" />
+	<vfat hw_id="0xF0F0"	verbose="255"	IdxInFiber="11"  GOHId="0"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="1" />
+	<vfat hw_id="0x8CF1"	verbose="255"	IdxInFiber="10"  GOHId="0"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="2" />
+        <vfat hw_id="0xA871"       verbose="255"	  IdxInFiber="15"  GOHId="3"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="3" />
+	<vfat hw_id="0x965C"	verbose="255"	IdxInFiber="12"  GOHId="3"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0x8A5C"	verbose="255"	IdxInFiber="13"  GOHId="0"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="5" />
+	<vfat hw_id="0x96F1"	verbose="255"	IdxInFiber="14"  GOHId="3"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="6" />
+	<vfat hw_id="0xC06E"	verbose="255"	IdxInFiber="15"  GOHId="0"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="7" />
+	<vfat hw_id="0x9460"	verbose="255"	IdxInFiber="12"  GOHId="0"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="8" />
+	<vfat hw_id="0xF4E0"	verbose="255"	IdxInFiber="5"  GOHId="0"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"    id="9" />
+	<vfat hw_id="0xAE71"	verbose="255"	IdxInFiber="4"  GOHId="0"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"    id="10" />
+	<vfat hw_id="0xDA6E"	verbose="255"	IdxInFiber="7"  GOHId="0"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"    id="11" />
+	<vfat hw_id="0xD6EE"	verbose="255"	IdxInFiber="2"  GOHId="0"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"    id="12" />
+	<vfat hw_id="0xCE6E"	verbose="255"	IdxInFiber="3"  GOHId="0"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"    id="13" />
+	<vfat hw_id="0xD6E0"	verbose="255"	IdxInFiber="6"  GOHId="0"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"    id="14" />
+	<vfat hw_id="0xCAF0"	verbose="255"	IdxInFiber="9"  GOHId="0"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"    id="15" />
+	<vfat hw_id="0xBC70"	verbose="255"	IdxInFiber="8"  GOHId="0"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"    id="16" />
+</t2_detector>
+	
+
+
+
+
+<t2_detector position="3">		 			
+        <vfat hw_id="0xEA5C"	verbose="255"	IdxInFiber="9"  GOHId="3"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="0" />
+	<vfat hw_id="0xA4DC"	verbose="255"	IdxInFiber="4"  GOHId="3"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="1" />
+	<vfat hw_id="0xDA61"	verbose="255"	IdxInFiber="5"  GOHId="3"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="2" />
+	<vfat hw_id="0x9E61"	verbose="255"	IdxInFiber="10"  GOHId="3"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="3" />
+	<vfat hw_id="0xB6E2"	verbose="255"	IdxInFiber="11"  GOHId="3"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0x8CE2"	verbose="255"	IdxInFiber="6"  GOHId="3"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="5" />
+	<vfat hw_id="0xC4E1"	verbose="255"	IdxInFiber="13"  GOHId="3"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="6" />
+	<vfat hw_id="0x96E1"	verbose="255"	IdxInFiber="8"  GOHId="3"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="7" />
+	<vfat hw_id="0xEEE2"	verbose="255"	IdxInFiber="7"  GOHId="3"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="8" />
+         <vfat hw_id="0x8E62"	verbose="255"	IdxInFiber="14"  GOHId="4"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="9" />
+	<vfat hw_id="0xF4E2"	verbose="255"	IdxInFiber="15"  GOHId="4"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="10" />
+	<vfat hw_id="0xF8E1"	verbose="255"	IdxInFiber="0"  GOHId="3"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="11" />
+	<vfat hw_id="0x98E2"	verbose="255"	IdxInFiber="13"  GOHId="4"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="12" />
+	<vfat hw_id="0xE6DC"	verbose="255"	IdxInFiber="12"  GOHId="4"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="13" />
+	<vfat hw_id="0xE65C"	verbose="255"	IdxInFiber="1"  GOHId="3"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="14" />
+	<vfat hw_id="0xBEDC"	verbose="255"	IdxInFiber="2"  GOHId="3"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="15" />
+	<vfat hw_id="0xEADC"	verbose="255"	IdxInFiber="3"  GOHId="3"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="16" />
+</t2_detector>
+	
+
+
+
+
+
+
+   <t2_detector position="4">		 			
+	<vfat hw_id="0xA65C"	verbose="255"	 IdxInFiber="4"  GOHId="4"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="0" />
+	<vfat hw_id="0xB6DC"	verbose="255"	 IdxInFiber="6"  GOHId="4"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="1" />
+	<vfat hw_id="0xE45C"	verbose="255"	 IdxInFiber="0"  GOHId="4"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="2" />
+	<vfat hw_id="0xDEE2"	verbose="255"	 IdxInFiber="11"  GOHId="4"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="3" />
+	<vfat hw_id="0xB462"	verbose="255"	 IdxInFiber="8"  GOHId="4"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0xD4DC"	verbose="255"	 IdxInFiber="7"  GOHId="4"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="5" />
+	<vfat hw_id="0xD8E2"	verbose="255"	 IdxInFiber="10"  GOHId="4"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="6" />
+	<vfat hw_id="0xCAE2"	verbose="255"	 IdxInFiber="9"  GOHId="4"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="7" />
+	<vfat hw_id="0xF6E2"	verbose="255"	 IdxInFiber="2"  GOHId="4"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="8" />
+	<vfat hw_id="0xD2F2"	verbose="255"	 IdxInFiber="10"  GOHId="5"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="9" />
+	<vfat hw_id="0x9E62"	verbose="255"	 IdxInFiber="8"  GOHId="5"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="10" />
+	<vfat hw_id="0xF25C"	verbose="255"	 IdxInFiber="3"  GOHId="4"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="11" />
+	<vfat hw_id="0xB2E1"	verbose="255"	 IdxInFiber="6"  GOHId="5"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="12" />
+        <vfat hw_id="0x9862"	verbose="255"	 IdxInFiber="1"  GOHId="4"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="13" />
+	<vfat hw_id="0xF2E2"	verbose="255"	 IdxInFiber="12"  GOHId="5"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="14" />
+	<vfat hw_id="0xCEDC"	verbose="255"	 IdxInFiber="5"  GOHId="4"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="15" />
+	<vfat hw_id="0xB85C"	verbose="255"	 IdxInFiber="14"  GOHId="5"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="16" />
+    </t2_detector>
+	
+
+
+
+
+    <t2_detector position="5">		 			
+	<vfat hw_id="0x9E5D"	verbose="255"	IdxInFiber="9"  GOHId="5"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"    id="0" />
+	<vfat hw_id="0x9EDD"	verbose="255"	IdxInFiber="11"  GOHId="5"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"    id="1" />
+	<vfat hw_id="0xB8E2"	verbose="255"	IdxInFiber="5"  GOHId="5"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"    id="2" />
+	<vfat hw_id="0xE4E2"	verbose="255"	IdxInFiber="4"  GOHId="5"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"    id="3" />
+	<vfat hw_id="0xAA62"	verbose="255"	IdxInFiber="13"  GOHId="5"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0xE6E2"	verbose="255"	IdxInFiber="0"  GOHId="5"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"    id="5" />
+	<vfat hw_id="0xF6E1"	verbose="255"	IdxInFiber="15"  GOHId="5"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"    id="6" />
+	<vfat hw_id="0xBAE1"	verbose="255"	IdxInFiber="2"  GOHId="5"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"    id="7" />
+	<vfat hw_id="0xFAE2"	verbose="255"	IdxInFiber="7"  GOHId="5"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"    id="8" />
+	<vfat hw_id="0x9C61"	verbose="255"	IdxInFiber="2"  GOHId="8"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="9" />
+	<vfat hw_id="0xCCE2"	verbose="255"	IdxInFiber="3"  GOHId="5"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"    id="10" />
+	<vfat hw_id="0xCE61"	verbose="255"	IdxInFiber="1"  GOHId="8"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="11" />
+	<vfat hw_id="0xCEE2"	verbose="255"	IdxInFiber="1"  GOHId="5"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"    id="12" />
+	<vfat hw_id="0xBEE1"	verbose="255"	IdxInFiber="0"  GOHId="8"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="13" />
+	<vfat hw_id="0xAE62"	verbose="255"	IdxInFiber="3"  GOHId="8"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="14" />
+	<vfat hw_id="0xBA5D"	verbose="255"	IdxInFiber="4"  GOHId="8"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="15" />
+	<vfat hw_id="0x8C5D"	verbose="255"	IdxInFiber="5"  GOHId="8"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="16" />
+    </t2_detector>
+	
+
+
+	
+    <t2_detector position="6">		 		
+        <vfat hw_id="0xF65C"	verbose="255"	IdxInFiber="2"  GOHId="7"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="0" />
+	<vfat hw_id="0xE0DC"	verbose="255"	IdxInFiber="15"  GOHId="8"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="1" />
+	<vfat hw_id="0xB662"	verbose="255"	IdxInFiber="14"  GOHId="8"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="2" />
+        <vfat hw_id="0xB061"       verbose="255"     IdxInFiber="5"  GOHId="7"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="3" />	 
+	<vfat hw_id="0xB062"	verbose="255"	IdxInFiber="4"  GOHId="7"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0xF8E2"	verbose="255"	IdxInFiber="1"  GOHId="7"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="5" />
+	<vfat hw_id="0xA862"	verbose="255"	IdxInFiber="6"  GOHId="7"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="6" />
+	<vfat hw_id="0xA262"	verbose="255"	IdxInFiber="3"  GOHId="7"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="7" />
+	<vfat hw_id="0xEA62"	verbose="255"	IdxInFiber="0"  GOHId="7"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="8" />
+	<vfat hw_id="0x96E2"	verbose="255"	IdxInFiber="9"  GOHId="8"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="9" />
+	<vfat hw_id="0xAA61"	verbose="255"	IdxInFiber="8"  GOHId="8"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="10" />
+        <vfat hw_id="0x925D"	verbose="255"	IdxInFiber="11"  GOHId="8"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="11" />
+<!-- above line 925D, changed fiber from 10 to 11-->
+	<vfat hw_id="0x94E2"	verbose="255"	IdxInFiber="6"  GOHId="8"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="12" />
+	<vfat hw_id="0xA462"	verbose="255"	IdxInFiber="7"  GOHId="8"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="13" />
+	<vfat hw_id="0xEAE2"	verbose="255"	IdxInFiber="10"  GOHId="8"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="14" />
+	<vfat hw_id="0xD25C"	verbose="255"	IdxInFiber="13"  GOHId="8"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="15" />
+	<vfat hw_id="0xA45C"	verbose="255"	IdxInFiber="12"  GOHId="8"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="16" />
+   </t2_detector>
+
+
+
+
+   <t2_detector position="7">		 			
+	<vfat hw_id="0xC273"	verbose="255"	IdxInFiber="3"  GOHId="6"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"    id="0" />
+	<vfat hw_id="0xDADC"	verbose="255"	IdxInFiber="0"  GOHId="6"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"    id="1" />
+	<vfat hw_id="0xA8E2"	verbose="255"	IdxInFiber="15"  GOHId="7"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="2" />
+        <vfat hw_id="0x8AE1"	verbose="255"	IdxInFiber="6"  GOHId="6"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="3" />
+	<vfat hw_id="0xEE61"	verbose="255"	IdxInFiber="5"  GOHId="6"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="4" />
+        <vfat hw_id="0x9A62"	verbose="255"	IdxInFiber="2"  GOHId="6"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"    id="5" />
+        <vfat hw_id="0xBC62"	verbose="255"	IdxInFiber="7"  GOHId="6"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="6" />
+        <vfat hw_id="0xBCE2"	verbose="255"	IdxInFiber="4"  GOHId="6"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="7" />
+	<vfat hw_id="0xDC61"	verbose="255"	IdxInFiber="1"  GOHId="6"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"    id="8" />
+	<vfat hw_id="0xBE62"	verbose="255"	IdxInFiber="10"  GOHId="7"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="9" />
+	<vfat hw_id="0xBEE2"	verbose="255"	IdxInFiber="9"  GOHId="7"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="10" />
+	<vfat hw_id="0xEEE1"	verbose="255"	IdxInFiber="12"  GOHId="7"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="11" />
+	<vfat hw_id="0x9EDC"	verbose="255"	IdxInFiber="7"  GOHId="7"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"  id="12" />
+	<vfat hw_id="0xAAE2"	verbose="255"	IdxInFiber="8"  GOHId="7"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="13" />
+	<vfat hw_id="0xD6E2"	verbose="255"	IdxInFiber="11"  GOHId="7"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="14" />
+	<vfat hw_id="0xF6DC"	verbose="255"	IdxInFiber="14"  GOHId="7"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="15" />
+	<vfat hw_id="0xD65C"	verbose="255"	IdxInFiber="13"  GOHId="7"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="16" />
+  </t2_detector>
+
+
+
+
+  <t2_detector position="8">		 			
+	<vfat hw_id="0xD872"	verbose="255"	IdxInFiber="4"  GOHId="10"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="0" />
+	<vfat hw_id="0xB272"	verbose="255"	IdxInFiber="3"  GOHId="10"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="1" />
+	<vfat hw_id="0xCEE1"	verbose="255"	IdxInFiber="0"  GOHId="10"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="2" />
+	<vfat hw_id="0xE2E1"	verbose="255"	IdxInFiber="9"  GOHId="10"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="3" />
+	<vfat hw_id="0xE6E1"	verbose="255"	IdxInFiber="6"  GOHId="10"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0xE261"	verbose="255"	IdxInFiber="5"  GOHId="10"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="5" />
+	<vfat hw_id="0xF05D"	verbose="255"	IdxInFiber="8"  GOHId="10"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="6" />
+	<vfat hw_id="0xACDD"	verbose="255"	IdxInFiber="7"  GOHId="10"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="7" />
+	<vfat hw_id="0x90DD"	verbose="255"	IdxInFiber="2"  GOHId="10"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="8" />
+        <vfat hw_id="0x8A5D"	verbose="255"	IdxInFiber="11"  GOHId="6"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="9" />
+        <vfat hw_id="0xEEDD"	verbose="255"	IdxInFiber="10"  GOHId="6"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="10" />
+        <vfat hw_id="0xF8DD"	verbose="255"	IdxInFiber="13"  GOHId="6"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="11" />
+        <vfat hw_id="0xE4E1"	verbose="255"	IdxInFiber="8"  GOHId="6"   OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="12" />
+        <vfat hw_id="0xA25D"	verbose="255"	IdxInFiber="9"  GOHId="6"   OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="13" />
+        <vfat hw_id="0xA6DD"	verbose="255"	IdxInFiber="12"  GOHId="6"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="14" />
+        <vfat hw_id="0xB4F2"	verbose="255"	IdxInFiber="15"  GOHId="6"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"  id="15" />
+        <vfat hw_id="0xC472"	verbose="255"	IdxInFiber="14"  GOHId="6"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="16" /> 
+  </t2_detector>
+
+
+
+
+
+
+
+  <t2_detector position="9">		 			
+	<vfat hw_id="0xA0DC"	verbose="255"	IdxInFiber="13"  GOHId="11"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="0" />
+	<vfat hw_id="0xE25C"	verbose="255"	IdxInFiber="8"  GOHId="11"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="1" />
+	<vfat hw_id="0xA2E2"	verbose="255"	IdxInFiber="9"  GOHId="11"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="2" />
+	<vfat hw_id="0xB0E1"	verbose="255"	IdxInFiber="14"  GOHId="11"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="3" />
+	<vfat hw_id="0xD4E2"	verbose="255"	IdxInFiber="15"  GOHId="11"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0xF661"	verbose="255"	IdxInFiber="10"  GOHId="11"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="5" />
+	<vfat hw_id="0xD262"	verbose="255"	IdxInFiber="1"  GOHId="10"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="6" />
+	<vfat hw_id="0xF862"	verbose="255"	IdxInFiber="12"  GOHId="11"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="7" />
+	<vfat hw_id="0xD462"	verbose="255"	IdxInFiber="11"  GOHId="11"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="8" />
+	<vfat hw_id="0x88E2"	verbose="255"	IdxInFiber="2"  GOHId="11"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="9" />
+	<vfat hw_id="0x9061"	verbose="255"	IdxInFiber="3"  GOHId="11"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="10" />
+	<vfat hw_id="0xF062"	verbose="255"	IdxInFiber="4"  GOHId="11"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="11" />
+	<vfat hw_id="0xA6E2"	verbose="255"	IdxInFiber="1"  GOHId="11"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="12" />
+	<vfat hw_id="0xD662"	verbose="255"	IdxInFiber="0"  GOHId="11"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="13" />
+	<vfat hw_id="0x8A61"	verbose="255"	IdxInFiber="5"  GOHId="11"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="14" />
+	<vfat hw_id="0xD45C"	verbose="255"	IdxInFiber="6"  GOHId="11"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="15" />
+	<vfat hw_id="0xE2DC"	verbose="255"	IdxInFiber="7"  GOHId="11"  OptoRxId="2" TOTFEDId="12" SubSystemId="T2"   id="16" />  
+  </t2_detector>                                                                                                       
+</t2_half >	   
+
+
+
+</arm>
+
+<arm id="1">
+ 
+
+<t2_half  id="0">
+
+
+	<t2_detector position="0">			
+	<vfat hw_id="0xCA73"   verbose="255"	IdxInFiber="12"  GOHId="2"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="0" />
+	<vfat hw_id="0xC673"   verbose="255"	IdxInFiber="9"  GOHId="2"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="1" />
+	<vfat hw_id="0xD8F3"   verbose="255"	IdxInFiber="8"  GOHId="2"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="2" />  
+	<vfat hw_id="0x8E73"   verbose="255"	IdxInFiber="15"  GOHId="2"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="3" />  
+	<vfat hw_id="0xA0F3"   verbose="255"	IdxInFiber="0"  GOHId="1"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="4" />  
+	<vfat hw_id="0x8EF3"   verbose="255"	IdxInFiber="11"  GOHId="2"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="5" />  
+	<vfat hw_id="0x9AF3"	verbose="255"	IdxInFiber="14"  GOHId="2"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="6" />  
+	<vfat hw_id="0xE873"	verbose="255"	IdxInFiber="13"  GOHId="2"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="7" /> 
+        <vfat hw_id="0xB2F3"	verbose="255"	IdxInFiber="10"  GOHId="2"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="8" /> 
+	<vfat hw_id="0xBCF3"	verbose="255"	IdxInFiber="3"  GOHId="2"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="9" />
+	<vfat hw_id="0xE0F3"	verbose="255"	IdxInFiber="2"  GOHId="2"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="10" />
+	<vfat hw_id="0xCE73"	verbose="255"	IdxInFiber="5"  GOHId="2"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="11" />
+	<vfat hw_id="0xCC73"	verbose="255"	IdxInFiber="0"  GOHId="2"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="12" />
+	<vfat hw_id="0x8CF3"	verbose="255"	IdxInFiber="1"  GOHId="2"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="13" />
+	<vfat hw_id="0xE4F3"	verbose="255"	IdxInFiber="4"  GOHId="2"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="14" />
+	<vfat hw_id="0x8E70"	verbose="255"	IdxInFiber="7"  GOHId="2"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="15" />
+	<vfat hw_id="0x9AF0"	verbose="255"	IdxInFiber="6"  GOHId="2"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="16" />
+	</t2_detector>
+
+	<t2_detector position="1">		 			
+	<vfat hw_id="0x88F0"	verbose="255"	IdxInFiber="13"  GOHId="1"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="0" />
+	<vfat hw_id="0xFE70"	verbose="255"	IdxInFiber="8"  GOHId="1"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="1" />
+	<vfat hw_id="0xB6F1"	verbose="255"	IdxInFiber="9"  GOHId="1"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="2" />
+	<vfat hw_id="0x9471"	verbose="255"	IdxInFiber="2"  GOHId="1"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="3" />
+	<vfat hw_id="0xDAF1"	verbose="255"	IdxInFiber="15"  GOHId="1"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0xB271"	verbose="255"	IdxInFiber="6"  GOHId="1"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="5" />
+	<vfat hw_id="0xA2F1"	verbose="255"	IdxInFiber="1"  GOHId="0"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"    id="6" />
+	<vfat hw_id="0x8871"	verbose="255"	IdxInFiber="4"  GOHId="1"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="7" />
+	<vfat hw_id="0xDA71"	verbose="255"	IdxInFiber="11"  GOHId="1"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="8" />
+	<vfat hw_id="0xD6F1"	verbose="255"	IdxInFiber="14"  GOHId="1"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="9" />
+	<vfat hw_id="0xB2F1"	verbose="255"	IdxInFiber="3"  GOHId="1"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="10" />
+<!-- above line B2F1 fails 333/8926 events-->
+	<vfat hw_id="0xB671"	verbose="255"	IdxInFiber="12"  GOHId="1"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="11" />
+	<vfat hw_id="0xB471"	verbose="255"	IdxInFiber="1"  GOHId="1"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="12" />
+        <vfat hw_id="0xA071"	verbose="255"	IdxInFiber="0"  GOHId="0"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"    id="13" /> 
+	<vfat hw_id="0xA2DC"	verbose="255"	IdxInFiber="5"  GOHId="1"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="14" />
+	<vfat hw_id="0xA6F0"	verbose="255"	IdxInFiber="10"  GOHId="1"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="15" />
+	<vfat hw_id="0xF8F0"	verbose="255"	IdxInFiber="7"  GOHId="1"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="16" />
+	</t2_detector>
+
+	<t2_detector position="2">		 			
+	<vfat hw_id="0xF072"	verbose="255"	IdxInFiber="14"  GOHId="0"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="0" />
+	<vfat hw_id="0x98F0"	verbose="255"	IdxInFiber="11"  GOHId="0"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="1" />
+	<vfat hw_id="0xD661"	verbose="255"	IdxInFiber="10"  GOHId="0"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="2" />
+	<vfat hw_id="0xA8EE"   verbose="255"   IdxInFiber="15"  GOHId="3"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="3" />
+	<vfat hw_id="0xF260"	verbose="255"	IdxInFiber="12"  GOHId="3"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0xD26E"	verbose="255"	IdxInFiber="13"  GOHId="0"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="5" />
+	<vfat hw_id="0xB060"	verbose="255"	IdxInFiber="14"  GOHId="3"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="6" />
+	<vfat hw_id="0xD0DC"	verbose="255"	IdxInFiber="15"  GOHId="0"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="7" />
+	<vfat hw_id="0xAEDC"	verbose="255"	IdxInFiber="12"  GOHId="0"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="8" />
+	<vfat hw_id="0xCE5C"	verbose="255"	IdxInFiber="5"  GOHId="0"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"    id="9" />
+	<vfat hw_id="0xF2DC"	verbose="255"	IdxInFiber="4"  GOHId="0"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"    id="10" />
+	<vfat hw_id="0xE0EE"	verbose="255"	IdxInFiber="7"  GOHId="0"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"    id="11" />
+        <vfat hw_id="0x98EE"	verbose="255"	IdxInFiber="2"  GOHId="0"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"    id="12" /> 
+	<vfat hw_id="0xC271"	verbose="255"	IdxInFiber="3"  GOHId="0"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"    id="13" />
+	<vfat hw_id="0xB2E0"	verbose="255"	IdxInFiber="6"  GOHId="0"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"    id="14" />
+	<vfat hw_id="0xF6F0"	verbose="255"	IdxInFiber="9"  GOHId="0"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"    id="15" />
+	<vfat hw_id="0xA670"	verbose="255"	IdxInFiber="8"  GOHId="0"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"    id="16" />
+	</t2_detector>
+	
+	<t2_detector position="3">		 			
+	<vfat hw_id="0x8C70"	verbose="255"	IdxInFiber="9"  GOHId="3"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="0" />
+	<vfat hw_id="0xA8F0"	verbose="255"	IdxInFiber="4"  GOHId="3"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="1" />
+	<vfat hw_id="0xC2F1"	verbose="255"	IdxInFiber="5"  GOHId="3"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="2" />
+	<vfat hw_id="0xF671"	verbose="255"	IdxInFiber="10"  GOHId="3"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="3" />
+	<vfat hw_id="0x9AE0"	verbose="255"	IdxInFiber="11"  GOHId="3"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0xF0E0"	verbose="255"	IdxInFiber="6"  GOHId="3"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="5" />
+	<vfat hw_id="0xF060"	verbose="255"	IdxInFiber="13"  GOHId="3"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="6" />
+	<vfat hw_id="0xA2E0"	verbose="255"	IdxInFiber="8"  GOHId="3"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="7" />
+	<vfat hw_id="0xAC71"	verbose="255"	IdxInFiber="7"  GOHId="3"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="8" />
+	<vfat hw_id="0xC060"	verbose="255"	IdxInFiber="14"  GOHId="4"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="9" />
+	<vfat hw_id="0x9CF1"	verbose="255"	IdxInFiber="15"  GOHId="4"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="10" />
+	<vfat hw_id="0x9E60"	verbose="255"	IdxInFiber="0"  GOHId="3"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="11" />
+	<vfat hw_id="0xF2E0"	verbose="255"	IdxInFiber="13"  GOHId="4"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="12" />
+	<vfat hw_id="0x9A60"	verbose="255"	IdxInFiber="12"  GOHId="4"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="13" />
+	<vfat hw_id="0xBEF1"	verbose="255"	IdxInFiber="1"  GOHId="3"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="14" />
+	<vfat hw_id="0xC85C"	verbose="255"	IdxInFiber="2"  GOHId="3"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="15" />
+	<vfat hw_id="0x88DC"	verbose="255"	IdxInFiber="3"  GOHId="3"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="16" />
+	</t2_detector>
+
+	<t2_detector position="4">		 			
+	<vfat hw_id="0x9C70"	verbose="255"	 IdxInFiber="4"  GOHId="4"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="0" />
+	<vfat hw_id="0xB870"	verbose="255"	 IdxInFiber="6"  GOHId="4"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="1" />
+	<vfat hw_id="0x9EF1"	verbose="255"	 IdxInFiber="0"  GOHId="4"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="2" />
+	<vfat hw_id="0xB460"	verbose="255"	 IdxInFiber="11"  GOHId="4"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="3" />
+	<vfat hw_id="0xC2DC"	verbose="255"	 IdxInFiber="8"  GOHId="4"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0xE06E"	verbose="255"	 IdxInFiber="7"  GOHId="4"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="5" />
+	<vfat hw_id="0xD85C"	verbose="255"	 IdxInFiber="10"  GOHId="4"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="6" />
+	<vfat hw_id="0xC2EE"	verbose="255"	 IdxInFiber="9"  GOHId="4"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="7" />
+	<vfat hw_id="0xA25C"	verbose="255"	 IdxInFiber="2"  GOHId="4"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="8" />
+	<vfat hw_id="0xDC62"	verbose="255"	 IdxInFiber="10"  GOHId="5"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="9" />
+	<vfat hw_id="0xBE71"	verbose="255"	 IdxInFiber="8"  GOHId="5"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="10" />
+	<vfat hw_id="0xFEE2"	verbose="255"	 IdxInFiber="3"  GOHId="4"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="11" />
+	<vfat hw_id="0xC8E0"	verbose="255"	 IdxInFiber="6"  GOHId="5"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="12" />
+	 <vfat hw_id="0xDEE0"	verbose="255"	 IdxInFiber="1"  GOHId="4"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="13" />
+	<vfat hw_id="0xACF1"	verbose="255"	 IdxInFiber="12"  GOHId="5"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="14" />
+	<vfat hw_id="0xCE70"	verbose="255"	 IdxInFiber="5"  GOHId="4"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="15" />
+	<vfat hw_id="0xAA70"	verbose="255"	 IdxInFiber="14"  GOHId="5"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="16" />
+	</t2_detector>
+
+	<t2_detector position="5">		 			
+	<vfat hw_id="0xF4F0"	verbose="255"	IdxInFiber="9"  GOHId="5"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"    id="0" />
+	<vfat hw_id="0xB8F0"	verbose="255"	IdxInFiber="11"  GOHId="5"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"    id="1" />
+	<vfat hw_id="0x9E6E"	verbose="255"	IdxInFiber="5"  GOHId="5"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"    id="2" />
+	<vfat hw_id="0x9EE0"	verbose="255"	IdxInFiber="4"  GOHId="5"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"    id="3" />
+	<vfat hw_id="0xD862"	verbose="255"	IdxInFiber="13"  GOHId="5"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0xA060"	verbose="255"	IdxInFiber="0"  GOHId="5"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"    id="5" />
+	<vfat hw_id="0xFEDC"	verbose="255"	IdxInFiber="15"  GOHId="5"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"    id="6" />
+	<vfat hw_id="0xA4E0"	verbose="255"	IdxInFiber="2"  GOHId="5"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"    id="7" />
+	<vfat hw_id="0xBCF1"	verbose="255"	IdxInFiber="7"  GOHId="5"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"    id="8" />
+	<vfat hw_id="0x90DC"	verbose="255"	IdxInFiber="2"  GOHId="8"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="9" />
+	<vfat hw_id="0xDCE2"	verbose="255"	IdxInFiber="3"  GOHId="5"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"    id="10" />
+	<vfat hw_id="0x8CEE"	verbose="255"	IdxInFiber="1"  GOHId="8"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="11" />
+	<vfat hw_id="0xC2E0"	verbose="255"	IdxInFiber="1"  GOHId="5"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"    id="12" />
+	<vfat hw_id="0xF272"	verbose="255"	IdxInFiber="0"  GOHId="8"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="13" />
+	<vfat hw_id="0xA662"	verbose="255"	IdxInFiber="3"  GOHId="8"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="14" />
+	<vfat hw_id="0xC072"	verbose="255"	IdxInFiber="4"  GOHId="8"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="15" />
+	<vfat hw_id="0x8870"	verbose="255"	IdxInFiber="5"  GOHId="8"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="16" />
+	</t2_detector>
+
+    <t2_detector position="6">		 		
+    <vfat hw_id="0xD672"	verbose="255"	IdxInFiber="2"  GOHId="7"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="0" />
+	<vfat hw_id="0xD0F0"	verbose="255"	IdxInFiber="15"  GOHId="8"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="1" />
+	<vfat hw_id="0x8C6E"	verbose="255"	IdxInFiber="14"  GOHId="8"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="2" />
+        <vfat hw_id="0xC260"   verbose="255"     IdxInFiber="5"  GOHId="7"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="3" />	 
+	<vfat hw_id="0xE862"	verbose="255"	IdxInFiber="4"  GOHId="7"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0xF462"	verbose="255"	IdxInFiber="1"  GOHId="7"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="5" />
+	<vfat hw_id="0xE061"	verbose="255"	IdxInFiber="6"  GOHId="7"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="6" />
+	<vfat hw_id="0x9E5C"	verbose="255"	IdxInFiber="3"  GOHId="7"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="7" />
+	<vfat hw_id="0x8C71"	verbose="255"	IdxInFiber="0"  GOHId="7"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="8" />
+	<vfat hw_id="0xAE60"	verbose="255"	IdxInFiber="9"  GOHId="8"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="9" />
+	<vfat hw_id="0xE260"	verbose="255"	IdxInFiber="8"  GOHId="8"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="10" />
+	<vfat hw_id="0xA260"	verbose="255"	IdxInFiber="11"  GOHId="8"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="11" />
+	<vfat hw_id="0xD0E0"	verbose="255"	IdxInFiber="6"  GOHId="8"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="12" />
+	<vfat hw_id="0xAEE0"	verbose="255"	IdxInFiber="7"  GOHId="8"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="13" />
+	<vfat hw_id="0xEE62"	verbose="255"	IdxInFiber="10"  GOHId="8"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="14" />
+	<vfat hw_id="0xBCDD"	verbose="255"	IdxInFiber="13"  GOHId="8"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="15" />
+	<vfat hw_id="0xCA70"	verbose="255"	IdxInFiber="12"  GOHId="8"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="16" />
+    </t2_detector>
+
+    <t2_detector position="7">		 			
+	<vfat hw_id="0x8E72"	verbose="255"	IdxInFiber="3"  GOHId="6"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"    id="0" />
+	<vfat hw_id="0xB2F2"	verbose="255"	IdxInFiber="0"  GOHId="6"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"    id="1" />
+	<vfat hw_id="0xCC6E"	verbose="255"	IdxInFiber="15"  GOHId="7"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="2" />
+	<vfat hw_id="0xFC73"	verbose="255"	IdxInFiber="6"  GOHId="6"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="3" />
+	<vfat hw_id="0x98DD"	verbose="255"	IdxInFiber="5"  GOHId="6"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="4" />
+        <vfat hw_id="0x9A61"	verbose="255"	IdxInFiber="2"  GOHId="6"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"    id="5" />  
+<!-- above line 9A61 is ok in 2443/8926 events and fails in 3795/8926-->
+	<vfat hw_id="0x8CDD"	verbose="255"	IdxInFiber="7"  GOHId="6"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="6" />
+	<vfat hw_id="0xCADD"	verbose="255"	IdxInFiber="4"  GOHId="6"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="7" />
+	<vfat hw_id="0xB2E2"	verbose="255"	IdxInFiber="1"  GOHId="6"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"    id="8" />
+	<vfat hw_id="0xD45D"	verbose="255"	IdxInFiber="10"  GOHId="7"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="9" />
+	<vfat hw_id="0x8EE1"	verbose="255"	IdxInFiber="9"  GOHId="7"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="10" />
+	<vfat hw_id="0xECE1"	verbose="255"	IdxInFiber="12"  GOHId="7"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="11" />
+	<vfat hw_id="0xD2DD"	verbose="255"	IdxInFiber="7"  GOHId="7"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"  id="12" />
+	<vfat hw_id="0xE2F3"	verbose="255"	IdxInFiber="8"  GOHId="7"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="13" />
+	<vfat hw_id="0xB65D"	verbose="255"	IdxInFiber="11"  GOHId="7"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="14" />
+	<vfat hw_id="0xBA73"	verbose="255"	IdxInFiber="14"  GOHId="7"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="15" />
+	<vfat hw_id="0x8ADC"	verbose="255"	IdxInFiber="13"  GOHId="7"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="16" />
+    </t2_detector>
+
+    <t2_detector position="8">		 			
+	<vfat hw_id="0xD070"	verbose="255"	IdxInFiber="4"  GOHId="10"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="0" />
+	<vfat hw_id="0xB46E"	verbose="255"	IdxInFiber="3"  GOHId="10"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="1" />
+	<vfat hw_id="0xF0DC"	verbose="255"	IdxInFiber="0"  GOHId="10"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="2" />
+	<vfat hw_id="0xC0DC"	verbose="255"	IdxInFiber="9"  GOHId="10"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="3" />
+	<vfat hw_id="0xA6E0"	verbose="255"	IdxInFiber="6"  GOHId="10"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0xF0EE"	verbose="255"	IdxInFiber="5"  GOHId="10"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="5" />
+	<vfat hw_id="0xDC71"	verbose="255"	IdxInFiber="8"  GOHId="10"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="6" />
+	<vfat hw_id="0xD060"	verbose="255"	IdxInFiber="7"  GOHId="10"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="7" />
+	<vfat hw_id="0xF45C"	verbose="255"	IdxInFiber="2"  GOHId="10"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="8" />
+	<vfat hw_id="0xBA6E"	verbose="255"	IdxInFiber="11"  GOHId="6"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="9" />
+	<vfat hw_id="0xAE5C"	verbose="255"	IdxInFiber="10"  GOHId="6"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="10" />
+	<vfat hw_id="0xD860"	verbose="255"	IdxInFiber="13"  GOHId="6"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="11" />
+	<vfat hw_id="0xB0F1"	verbose="255"	IdxInFiber="8"  GOHId="6"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="12" />
+        <vfat hw_id="0xC25C"	verbose="255"	IdxInFiber="9"  GOHId="6"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="13" />
+<!-- above line C25C, changed fiber 7 to 9-->
+	<vfat hw_id="0xB0EE"	verbose="255"	IdxInFiber="12"  GOHId="6"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="14" />
+	<vfat hw_id="0xAEF2"	verbose="255"	IdxInFiber="15"  GOHId="6"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"  id="15" />
+	<vfat hw_id="0xAAF0"	verbose="255"	IdxInFiber="14"  GOHId="6"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="16" />
+    </t2_detector>
+
+    <t2_detector position="9">		 			
+      <vfat hw_id="0xA270" verbose="255"	IdxInFiber="13"  GOHId="11"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="0" /> 
+      <vfat hw_id="0x8EF0"	verbose="255"	IdxInFiber="8"  GOHId="11"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="1" /> 
+      <vfat hw_id="0xA471"	verbose="255"	IdxInFiber="9"  GOHId="11"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="2" /> 
+      <vfat hw_id="0xA0F1"	verbose="255"	IdxInFiber="14"  GOHId="11"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="3" /> 
+      <vfat hw_id="0xF471"	verbose="255"	IdxInFiber="15"  GOHId="11"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="4" /> 
+      <vfat hw_id="0xFA71"	verbose="255"	IdxInFiber="10"  GOHId="11"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="5" /> 
+      <vfat hw_id="0xB4F1"	verbose="255"	IdxInFiber="1"  GOHId="10"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="6" /> 
+      <vfat hw_id="0xEEF1"	verbose="255"	IdxInFiber="12"  GOHId="11"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="7" /> 
+      <vfat hw_id="0xD2F1"	verbose="255"	IdxInFiber="11"  GOHId="11"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="8" /> 
+      <vfat hw_id="0x8A71"	verbose="255"	IdxInFiber="2"  GOHId="11"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="9" />
+      <vfat hw_id="0xA271"	verbose="255"	IdxInFiber="3"  GOHId="11"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="10" />
+      <vfat hw_id="0x88F1"	verbose="255"	IdxInFiber="4"  GOHId="11"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="11" />
+      <vfat hw_id="0xB8F1"	verbose="255"	IdxInFiber="1"  GOHId="11"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="12" />
+      <vfat hw_id="0xFAF1"	verbose="255"	IdxInFiber="0"  GOHId="11"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="13" />
+      <vfat hw_id="0x92F1"	verbose="255"	IdxInFiber="5"  GOHId="11"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="14" />
+      <vfat hw_id="0x9270"	verbose="255"	IdxInFiber="6"  GOHId="11"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="15" />
+      <vfat hw_id="0xE670"	verbose="255"	IdxInFiber="7"  GOHId="11"  OptoRxId="3" TOTFEDId="14" SubSystemId="T2"   id="16" />  
+    </t2_detector>
+                                                          
+</t2_half >
+
+
+
+
+<t2_half  id="1">
+
+
+    <t2_detector position="0">			
+	<vfat hw_id="0xE272"   verbose="255"	IdxInFiber="12"  GOHId="2"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="0" />
+        <vfat hw_id="0xC672"   verbose="255"	IdxInFiber="9"  GOHId="2"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="1" /> 
+	<vfat hw_id="0xACF2"   verbose="255"	IdxInFiber="8"  GOHId="2"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="2" />
+	<vfat hw_id="0x945D"   verbose="255"	IdxInFiber="15"  GOHId="2"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="3" />
+	<vfat hw_id="0xA2F3"   verbose="255"	IdxInFiber="0"  GOHId="1"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0xC473"   verbose="255"	IdxInFiber="11"  GOHId="2"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="5" />
+	<vfat hw_id="0xF4F3"	verbose="255"	IdxInFiber="14"  GOHId="2"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="6" />
+	<vfat hw_id="0xFCDD"	verbose="255"	IdxInFiber="13"  GOHId="2"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="7" />
+	<vfat hw_id="0xD25D"	verbose="255"	IdxInFiber="10"  GOHId="2"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="8" />
+	<vfat hw_id="0xCEDD"	verbose="255"	IdxInFiber="3"  GOHId="2"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="9" />
+	<vfat hw_id="0xBADD"	verbose="255"	IdxInFiber="2"  GOHId="2"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="10" />
+	<vfat hw_id="0xD6DD"	verbose="255"	IdxInFiber="5"  GOHId="2"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="11" />
+	<vfat hw_id="0xE05D"	verbose="255"	IdxInFiber="0"  GOHId="2"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="12" />
+        <vfat hw_id="0xD85D"	verbose="255"	IdxInFiber="1"  GOHId="2"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="13" /> 
+        <vfat hw_id="0x965D"	verbose="255"	IdxInFiber="4"  GOHId="2"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="14" /> 
+        <vfat hw_id="0xE4DD"	verbose="255"	IdxInFiber="7"  GOHId="2"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="15" />
+<!-- above was commented prev, but looks good now-->
+	<vfat hw_id="0xC2DD"	verbose="255"	IdxInFiber="6"  GOHId="2"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="16" />  
+	</t2_detector>
+
+	<t2_detector position="1" >		 			
+	<vfat hw_id="0x8EF2"	verbose="255"	IdxInFiber="13"  GOHId="1"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="0" />
+	<vfat hw_id="0x9A72"	verbose="255"	IdxInFiber="8"  GOHId="1"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="1" />
+	<vfat hw_id="0xB8DD"	verbose="255"	IdxInFiber="9"  GOHId="1"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="2" />
+	<vfat hw_id="0xFEDD"	verbose="255"	IdxInFiber="2"  GOHId="1"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="3" />
+	<vfat hw_id="0xD4DD"	verbose="255"	IdxInFiber="15"  GOHId="1"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0xAC5D"	verbose="255"	IdxInFiber="6"  GOHId="1"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="5" />
+	<vfat hw_id="0xECDD"	verbose="255"	IdxInFiber="1"  GOHId="0"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"    id="6" />
+	<vfat hw_id="0x985D"	verbose="255"	IdxInFiber="4"  GOHId="1"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="7" />
+	<vfat hw_id="0xD0DD"	verbose="255"	IdxInFiber="11"  GOHId="1"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="8" />
+	<vfat hw_id="0x9A5D"	verbose="255"	IdxInFiber="14"  GOHId="1"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="9" />
+	<vfat hw_id="0xE2DD"	verbose="255"	IdxInFiber="3"  GOHId="1"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="10" />
+	<vfat hw_id="0x9873"	verbose="255"	IdxInFiber="12"  GOHId="1"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="11" />
+	<vfat hw_id="0xA65D"	verbose="255"	IdxInFiber="1"  GOHId="1"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="12" />
+	<vfat hw_id="0xBE5D"	verbose="255"	IdxInFiber="0"  GOHId="0"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"    id="13" />
+        <vfat hw_id="0x8ADD"	verbose="255"	IdxInFiber="5"  GOHId="1"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="14" /> 
+	<vfat hw_id="0xCE72"	verbose="255"	IdxInFiber="10"  GOHId="1"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="15" />
+	<vfat hw_id="0xE072"	verbose="255"	IdxInFiber="7"  GOHId="1"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="16" />	
+	</t2_detector>
+
+	<t2_detector position="2">		 			
+	<vfat hw_id="0x925C"	verbose="255"	IdxInFiber="14"  GOHId="0"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="0" />
+	<vfat hw_id="0x945C"	verbose="255"	IdxInFiber="11"  GOHId="0"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="1" />
+	<vfat hw_id="0x92E2"	verbose="255"	IdxInFiber="10"  GOHId="0"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="2" />
+	 <vfat hw_id="0xB862"   verbose="255"	IdxInFiber="15"  GOHId="3"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="3" />
+	<vfat hw_id="0xB661"	verbose="255"	IdxInFiber="12"  GOHId="3"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0xA061"	verbose="255"	IdxInFiber="13"  GOHId="0"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="5" />
+	<vfat hw_id="0xA461"	verbose="255"	IdxInFiber="14"  GOHId="3"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="6" />
+	<vfat hw_id="0xD062"	verbose="255"	IdxInFiber="15"  GOHId="0"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="7" />
+	<vfat hw_id="0xB0DC"	verbose="255"	IdxInFiber="12"  GOHId="0"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="8" />
+	<vfat hw_id="0xA0E2"	verbose="255"	IdxInFiber="5"  GOHId="0"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"    id="9" />
+	<vfat hw_id="0xA0E1"	verbose="255"	IdxInFiber="4"  GOHId="0"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"    id="10" />
+	<vfat hw_id="0x9EE2"	verbose="255"	IdxInFiber="7"  GOHId="0"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"    id="11" />
+	<vfat hw_id="0xC2E1"	verbose="255"	IdxInFiber="2"  GOHId="0"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"    id="12" />
+	<vfat hw_id="0xF662"	verbose="255"	IdxInFiber="3"  GOHId="0"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"    id="13" />
+	<vfat hw_id="0xE462"	verbose="255"	IdxInFiber="6"  GOHId="0"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"    id="14" />
+	<vfat hw_id="0x94DC"	verbose="255"	IdxInFiber="9"  GOHId="0"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"    id="15" />
+	<vfat hw_id="0x92DC"	verbose="255"	IdxInFiber="8"  GOHId="0"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"    id="16" />
+	</t2_detector>
+	
+	<t2_detector position="3">		 			
+	<vfat hw_id="0xD4F3"	verbose="255"	IdxInFiber="9"  GOHId="3"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="0" />
+	<vfat hw_id="0xCCF2"	verbose="255"	IdxInFiber="4"  GOHId="3"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="1" />  
+<!-- commented above line since vfat frame or crc is always failing at this fiber -->
+	<vfat hw_id="0xE8DD"	verbose="255"	IdxInFiber="5"  GOHId="3"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="2" />
+	<vfat hw_id="0x9C72"	verbose="255"	IdxInFiber="10"  GOHId="3"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="3" />
+	<vfat hw_id="0xBEF2"	verbose="255"	IdxInFiber="11"  GOHId="3"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0x9CF3"	verbose="255"	IdxInFiber="6"  GOHId="3"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="5" />
+	<vfat hw_id="0x9EF3"	verbose="255"	IdxInFiber="13"  GOHId="3"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="6" />
+	<vfat hw_id="0x9073"	verbose="255"	IdxInFiber="8"  GOHId="3"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="7" />
+	<vfat hw_id="0xC461"	verbose="255"	IdxInFiber="7"  GOHId="3"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="8" />
+	<vfat hw_id="0xCCE1"	verbose="255"	IdxInFiber="14"  GOHId="4"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="9" />
+	<vfat hw_id="0xDAE1"	verbose="255"	IdxInFiber="15"  GOHId="4"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="10" />
+	<vfat hw_id="0xD861"	verbose="255"	IdxInFiber="0"  GOHId="3"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="11" />
+	<vfat hw_id="0xD273"	verbose="255"	IdxInFiber="13"  GOHId="4"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="12" />
+	<vfat hw_id="0xBE72"	verbose="255"	IdxInFiber="12"  GOHId="4"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="13" />
+	<vfat hw_id="0x98F3"	verbose="255"	IdxInFiber="1"  GOHId="3"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="14" />
+	<vfat hw_id="0xE673"	verbose="255"	IdxInFiber="2"  GOHId="3"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="15" />
+        <vfat hw_id="0xE6F3"	verbose="255"	IdxInFiber="3"  GOHId="3"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="16" />
+<!-- above was commented prev, but looks good now-->
+	</t2_detector>
+	
+    <t2_detector position="4">		 			
+	<vfat hw_id="0xBC72"	verbose="255"	 IdxInFiber="4"  GOHId="4"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="0" />
+	<vfat hw_id="0xAAF2"	verbose="255"	 IdxInFiber="6"  GOHId="4"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="1" />
+	<vfat hw_id="0xCAE1"	verbose="255"	 IdxInFiber="0"  GOHId="4"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="2" />
+	<vfat hw_id="0xD8E1"	verbose="255"	 IdxInFiber="11"  GOHId="4"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="3" />
+	<vfat hw_id="0xC45D"	verbose="255"	 IdxInFiber="8"  GOHId="4"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0x9C5D"	verbose="255"	 IdxInFiber="7"  GOHId="4"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="5" />
+	<vfat hw_id="0x8EDD"	verbose="255"	 IdxInFiber="10"  GOHId="4"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="6" />
+	<vfat hw_id="0xCE5D"	verbose="255"	 IdxInFiber="9"  GOHId="4"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="7" />
+	<vfat hw_id="0xF861"	verbose="255"	 IdxInFiber="2"  GOHId="4"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="8" />
+	<vfat hw_id="0xC073"	verbose="255"	 IdxInFiber="10"  GOHId="5"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="9" />
+	<vfat hw_id="0xBEF3"	verbose="255"	 IdxInFiber="8"  GOHId="5"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="10" />
+	<vfat hw_id="0xE872"	verbose="255"	 IdxInFiber="3"  GOHId="4"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="11" />
+	<vfat hw_id="0xBAF3"	verbose="255"	 IdxInFiber="6"  GOHId="5"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="12" />
+	 <vfat hw_id="0xF2F2"	verbose="255"	 IdxInFiber="1"  GOHId="4"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="13" />
+	<vfat hw_id="0x9CF2"	verbose="255"	 IdxInFiber="12"  GOHId="5"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="14" />
+   <vfat hw_id="0xFAFE"	verbose="255"	 IdxInFiber="5"  GOHId="4"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="15" />  
+	<vfat hw_id="0x9672"	verbose="255"	 IdxInFiber="14"  GOHId="5"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="16" />
+    </t2_detector>
+
+    <t2_detector position="5">		 			
+	<vfat hw_id="0xAE72"	verbose="255"	IdxInFiber="9"  GOHId="5"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"    id="0" />
+	<vfat hw_id="0xD072"	verbose="255"	IdxInFiber="11"  GOHId="5"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"    id="1" />  
+	<vfat hw_id="0x8E5D"	verbose="255"	IdxInFiber="5"  GOHId="5"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"    id="2" />
+	<vfat hw_id="0xCA61"	verbose="255"	IdxInFiber="4"  GOHId="5"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"    id="3" />
+	<vfat hw_id="0x885D"	verbose="255"	IdxInFiber="13"  GOHId="5"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0xA4DD"	verbose="255"	IdxInFiber="0"  GOHId="5"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"    id="5" />
+	<vfat hw_id="0xDC5D"	verbose="255"	IdxInFiber="15"  GOHId="5"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"    id="6" />
+	<vfat hw_id="0xBEDD"	verbose="255"	IdxInFiber="2"  GOHId="5"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"    id="7" />
+	<vfat hw_id="0xB25D"	verbose="255"	IdxInFiber="7"  GOHId="5"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"    id="8" />
+	<vfat hw_id="0x96DD"	verbose="255"	IdxInFiber="2"  GOHId="8"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="9" />
+	<vfat hw_id="0xF261"	verbose="255"	IdxInFiber="3"  GOHId="5"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"    id="10" />
+	<vfat hw_id="0x88DD"	verbose="255"	IdxInFiber="1"  GOHId="8"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="11" />
+	<vfat hw_id="0xC0DD"	verbose="255"	IdxInFiber="1"  GOHId="5"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"    id="12" />
+	<vfat hw_id="0x9CDD"	verbose="255"	IdxInFiber="0"  GOHId="8"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="13" />
+	<vfat hw_id="0xE45D"	verbose="255"	IdxInFiber="3"  GOHId="8"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="14" />
+	<vfat hw_id="0xCEF2"	verbose="255"	IdxInFiber="4"  GOHId="8"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="15" />
+        <vfat hw_id="0xAA5D"	verbose="255"	IdxInFiber="5"  GOHId="8"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="16" />
+<!-- above was commented prev, but looks good now-->
+    </t2_detector>
+	
+	<t2_detector position="6">		 		
+    <vfat hw_id="0xD272"	verbose="255"	IdxInFiber="2"  GOHId="7"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="0" />
+	<vfat hw_id="0xF472"	verbose="255"	IdxInFiber="15"  GOHId="8"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="1" />
+	<vfat hw_id="0xA0DD"	verbose="255"	IdxInFiber="14"  GOHId="8"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="2" />
+    <vfat hw_id="0xD0E1"   verbose="255"     IdxInFiber="5"  GOHId="7"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="3" />	 
+	<vfat hw_id="0xF25D"	verbose="255"	IdxInFiber="4"  GOHId="7"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0xE461"	verbose="255"	IdxInFiber="1"  GOHId="7"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="5" />
+	<vfat hw_id="0xEADD"	verbose="255"	IdxInFiber="6"  GOHId="7"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="6" />
+	<vfat hw_id="0xEC5D"	verbose="255"	IdxInFiber="3"  GOHId="7"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="7" />
+	<vfat hw_id="0xDCDD"	verbose="255"	IdxInFiber="0"  GOHId="7"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="8" />
+	<vfat hw_id="0xA45D"	verbose="255"	IdxInFiber="9"  GOHId="8"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="9" />
+	<vfat hw_id="0xFCE1"	verbose="255"	IdxInFiber="8"  GOHId="8"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="10" />
+	<vfat hw_id="0xE861"	verbose="255"	IdxInFiber="11"  GOHId="8"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="11" />
+	<vfat hw_id="0xA4E1"	verbose="255"	IdxInFiber="6"  GOHId="8"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="12" />
+	<vfat hw_id="0xBE61"	verbose="255"	IdxInFiber="7"  GOHId="8"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="13" />
+	<vfat hw_id="0xDA5D"	verbose="255"	IdxInFiber="10"  GOHId="8"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="14" />
+	<vfat hw_id="0xC6DD"	verbose="255"	IdxInFiber="13"  GOHId="8"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="15" />
+	<vfat hw_id="0x92F2"	verbose="255"	IdxInFiber="12"  GOHId="8"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="16" />
+   </t2_detector>
+
+   <t2_detector position="7">		 			
+	<vfat hw_id="0xC4F2"	verbose="255"	IdxInFiber="3"  GOHId="6"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"    id="0" />
+	<vfat hw_id="0xE472"	verbose="255"	IdxInFiber="0"  GOHId="6"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"    id="1" />
+	<vfat hw_id="0x9CE1"	verbose="255"	IdxInFiber="15"  GOHId="7"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="2" />
+	<vfat hw_id="0xFE61"	verbose="255"	IdxInFiber="6"  GOHId="6"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="3" />
+	<vfat hw_id="0x9861"	verbose="255"	IdxInFiber="5"  GOHId="6"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0xF6DD"	verbose="255"	IdxInFiber="2"  GOHId="6"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"    id="5" />
+	<vfat hw_id="0xE25D"	verbose="255"	IdxInFiber="7"  GOHId="6"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="6" />
+	<vfat hw_id="0xAE5D"	verbose="255"	IdxInFiber="4"  GOHId="6"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="7" />
+	<vfat hw_id="0x94E1"	verbose="255"	IdxInFiber="1"  GOHId="6"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"    id="8" />
+	<vfat hw_id="0xD8DD"	verbose="255"	IdxInFiber="10"  GOHId="7"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="9" />
+	<vfat hw_id="0xF2DD"	verbose="255"	IdxInFiber="9"  GOHId="7"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="10" />
+	<vfat hw_id="0xB6E1"	verbose="255"	IdxInFiber="12"  GOHId="7"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="11" />
+	<vfat hw_id="0x9261"	verbose="255"	IdxInFiber="7"  GOHId="7"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"  id="12" />
+	<vfat hw_id="0x98E1"	verbose="255"	IdxInFiber="8"  GOHId="7"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="13" />
+	<vfat hw_id="0xAEE1"	verbose="255"	IdxInFiber="11"  GOHId="7"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="14" />
+	<vfat hw_id="0xA2F2"	verbose="255"	IdxInFiber="14"  GOHId="7"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="15" />
+	<vfat hw_id="0x9272"	verbose="255"	IdxInFiber="13"  GOHId="7"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="16" />
+  </t2_detector>
+
+  <t2_detector position="8">		 			
+	<vfat hw_id="0xA272"	verbose="255"	IdxInFiber="4"  GOHId="10"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="0" />
+        <vfat hw_id="0xB472"	verbose="255"	IdxInFiber="3"  GOHId="10"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="1" />
+<!-- above was commented prev, but looks good now-->
+	<vfat hw_id="0xAEDD"	verbose="255"	IdxInFiber="0"  GOHId="10"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="2" />
+	<vfat hw_id="0xE6DD"	verbose="255"	IdxInFiber="9"  GOHId="10"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="3" />
+	<vfat hw_id="0x905D"	verbose="255"	IdxInFiber="6"  GOHId="10"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="4" />
+	<vfat hw_id="0xE2F2"	verbose="255"	IdxInFiber="5"  GOHId="10"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="5" />
+	<vfat hw_id="0xDADD"	verbose="255"	IdxInFiber="8"  GOHId="10"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="6" />
+	<vfat hw_id="0xC4DD"	verbose="255"	IdxInFiber="7"  GOHId="10"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="7" />
+	<vfat hw_id="0xB45D"	verbose="255"	IdxInFiber="2"  GOHId="10"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="8" />
+	<vfat hw_id="0xE85D"	verbose="255"	IdxInFiber="11"  GOHId="6"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="9" />
+	<vfat hw_id="0xA2DD"	verbose="255"	IdxInFiber="10"  GOHId="6"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="10" />
+	<vfat hw_id="0xD65D"	verbose="255"	IdxInFiber="13"  GOHId="6"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="11" />
+	<vfat hw_id="0xBC5D"	verbose="255"	IdxInFiber="8"  GOHId="6"   OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="12" />
+        <vfat hw_id="0xF0E1"	verbose="255"	IdxInFiber="9"  GOHId="6"   OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="13" />
+<!-- above line F0E1 changed fiber from 7 to 9  -->
+	<vfat hw_id="0xD2E1"	verbose="255"	IdxInFiber="12"  GOHId="6"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="14" />
+	<vfat hw_id="0xC6F2"	verbose="255"	IdxInFiber="15"  GOHId="6"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"  id="15" />
+	<vfat hw_id="0xE4F2"	verbose="255"	IdxInFiber="14"  GOHId="6"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="16" />
+  </t2_detector>
+
+  <t2_detector position="9">		 			
+	<vfat hw_id="0xD6F2"	verbose="255"	IdxInFiber="13" GOHId="11"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="0" />
+	<vfat hw_id="0xEA5D"	verbose="255"	IdxInFiber="8"  GOHId="11"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="1" />
+	<vfat hw_id="0x9461"	verbose="255"	IdxInFiber="9"  GOHId="11"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="2" />
+        <vfat hw_id="0xAC61"	verbose="255"	IdxInFiber="14" GOHId="11"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="3" /> 
+        <vfat hw_id="0xA861"	verbose="255"	IdxInFiber="15" GOHId="11"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="4" /> 
+       <vfat hw_id="0x9AE1"	verbose="255"	IdxInFiber="10" GOHId="11"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="5" /> 
+        <vfat hw_id="0x92E1"	verbose="255"	IdxInFiber="1"  GOHId="10"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="6" /> 
+	<vfat hw_id="0xB4E1"	verbose="255"	IdxInFiber="12" GOHId="11"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="7" /> 
+        <vfat hw_id="0x8E61"	verbose="255"	IdxInFiber="11"  GOHId="11"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="8" />
+<!-- above was commented prev, but looks good now-->
+       <vfat hw_id="0xACE1"	verbose="255"	IdxInFiber="2"  GOHId="11"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="9" /> 
+       <vfat hw_id="0x90E1"	verbose="255"	IdxInFiber="3"  GOHId="11"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="10" /> 
+      <vfat hw_id="0xF85D"	        verbose="255"	IdxInFiber="4"  GOHId="11"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="11" /> 
+      <vfat hw_id="0x9661"       	verbose="255"	IdxInFiber="1"  GOHId="11"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="12" /> 
+       <vfat hw_id="0x88E1"	verbose="255"	IdxInFiber="0"  GOHId="11"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="13" /> 
+      <vfat hw_id="0xB261" 	verbose="255"	IdxInFiber="5"  GOHId="11"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="14" />
+      <vfat hw_id="0xF4DD"	        verbose="255"	IdxInFiber="6"  GOHId="11"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="15" />
+      <vfat hw_id="0xB6DD"	        verbose="255"	IdxInFiber="7"  GOHId="11"  OptoRxId="2" TOTFEDId="14" SubSystemId="T2"   id="16" />  
+  </t2_detector>        
+
+</t2_half>	   
+
+</arm>
+
+
+</top>

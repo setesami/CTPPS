@@ -1,0 +1,695 @@
+<?xml version="1.0" ?>
+<top>
+  <t1_detector_set id="1">
+    <t1_arm id="1">
+      <t1_plane id="1">
+        <t1_csc id="1">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="109"/>
+          </t1_channel_type>
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="19"/>
+            <channel id="18"/>
+            <channel id="17"/>
+            <channel id="129"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="0">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="90"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="5">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="1"/>
+            <channel id="3"/>
+            <channel id="2"/>
+            <channel id="49"/>
+          </t1_channel_type>
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="50"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="4">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="129"/>
+            <channel id="109"/>
+          </t1_channel_type>
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="65"/>
+            <channel id="66"/>
+            <channel id="67"/>
+          </t1_channel_type>
+        </t1_csc>
+      </t1_plane>
+      <t1_plane id="0">
+        <t1_csc id="0">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="15"/>
+          </t1_channel_type>
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="38"/>
+            <channel id="42"/>
+            <channel id="36"/>
+            <channel id="98"/>
+            <channel id="118"/>
+            <channel id="97"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="3">
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="68"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="5">
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="39"/>
+            <channel id="30"/>
+            <channel id="50"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="4">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="33"/>
+            <channel id="47"/>
+            <channel id="59"/>
+            <channel id="43"/>
+            <channel id="41"/>
+          </t1_channel_type>
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="114"/>
+            <channel id="96"/>
+          </t1_channel_type>
+        </t1_csc>
+      </t1_plane>
+      <t1_plane id="3">
+        <t1_csc id="1">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="69"/>
+            <channel id="97"/>
+          </t1_channel_type>
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="151"/>
+            <channel id="150"/>
+            <channel id="18"/>
+            <channel id="131"/>
+            <channel id="130"/>
+            <channel id="129"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="0">
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="1"/>
+            <channel id="2"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="3">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="146"/>
+            <channel id="145"/>
+            <channel id="142"/>
+            <channel id="42"/>
+            <channel id="43"/>
+            <channel id="40"/>
+            <channel id="34"/>
+            <channel id="132"/>
+            <channel id="148"/>
+            <channel id="128"/>
+            <channel id="149"/>
+          </t1_channel_type>
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="147"/>
+            <channel id="59"/>
+            <channel id="18"/>
+            <channel id="43"/>
+            <channel id="149"/>
+            <channel id="61"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="2">
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="1"/>
+            <channel id="3"/>
+            <channel id="2"/>
+            <channel id="5"/>
+            <channel id="4"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="5">
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="99"/>
+            <channel id="98"/>
+            <channel id="100"/>
+            <channel id="97"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="4">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="33"/>
+            <channel id="47"/>
+            <channel id="42"/>
+            <channel id="36"/>
+            <channel id="40"/>
+            <channel id="34"/>
+          </t1_channel_type>
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="149"/>
+            <channel id="30"/>
+            <channel id="145"/>
+            <channel id="134"/>
+          </t1_channel_type>
+        </t1_csc>
+      </t1_plane>
+      <t1_plane id="2">
+        <t1_csc id="1">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="133"/>
+            <channel id="97"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="0">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="128"/>
+            <channel id="129"/>
+            <channel id="130"/>
+            <channel id="126"/>
+            <channel id="127"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="3">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="68"/>
+            <channel id="97"/>
+            <channel id="66"/>
+          </t1_channel_type>
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="81"/>
+            <channel id="85"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="2">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="114"/>
+            <channel id="113"/>
+            <channel id="112"/>
+          </t1_channel_type>
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="1"/>
+            <channel id="3"/>
+            <channel id="2"/>
+            <channel id="5"/>
+            <channel id="4"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="5">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="38"/>
+            <channel id="48"/>
+            <channel id="56"/>
+            <channel id="42"/>
+            <channel id="40"/>
+            <channel id="62"/>
+            <channel id="110"/>
+            <channel id="112"/>
+            <channel id="106"/>
+            <channel id="104"/>
+          </t1_channel_type>
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="33"/>
+            <channel id="74"/>
+            <channel id="38"/>
+            <channel id="35"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="4">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="68"/>
+            <channel id="80"/>
+            <channel id="74"/>
+            <channel id="72"/>
+          </t1_channel_type>
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="1"/>
+            <channel id="94"/>
+          </t1_channel_type>
+        </t1_csc>
+      </t1_plane>
+      <t1_plane id="4">
+        <t1_csc id="1">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="146"/>
+            <channel id="27"/>
+            <channel id="59"/>
+            <channel id="55"/>
+            <channel id="43"/>
+            <channel id="115"/>
+            <channel id="164"/>
+            <channel id="160"/>
+            <channel id="162"/>
+          </t1_channel_type>
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="39"/>
+            <channel id="59"/>
+            <channel id="58"/>
+            <channel id="37"/>
+            <channel id="51"/>
+            <channel id="122"/>
+            <channel id="53"/>
+            <channel id="62"/>
+            <channel id="35"/>
+            <channel id="126"/>
+            <channel id="54"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="0">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="38"/>
+            <channel id="48"/>
+            <channel id="46"/>
+            <channel id="44"/>
+            <channel id="42"/>
+            <channel id="40"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="3">
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="50"/>
+            <channel id="161"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="2">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="115"/>
+            <channel id="114"/>
+            <channel id="117"/>
+            <channel id="116"/>
+            <channel id="113"/>
+            <channel id="119"/>
+            <channel id="118"/>
+            <channel id="24"/>
+            <channel id="20"/>
+            <channel id="21"/>
+            <channel id="22"/>
+            <channel id="23"/>
+            <channel id="1"/>
+            <channel id="120"/>
+            <channel id="121"/>
+            <channel id="122"/>
+            <channel id="123"/>
+            <channel id="124"/>
+            <channel id="125"/>
+            <channel id="126"/>
+            <channel id="127"/>
+            <channel id="128"/>
+            <channel id="17"/>
+            <channel id="19"/>
+            <channel id="18"/>
+          </t1_channel_type>
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="1"/>
+            <channel id="3"/>
+            <channel id="2"/>
+            <channel id="5"/>
+            <channel id="4"/>
+            <channel id="6"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="5">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="129"/>
+            <channel id="130"/>
+            <channel id="50"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="4">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="18"/>
+            <channel id="1"/>
+            <channel id="98"/>
+            <channel id="3"/>
+            <channel id="2"/>
+            <channel id="4"/>
+            <channel id="102"/>
+            <channel id="100"/>
+            <channel id="104"/>
+          </t1_channel_type>
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="113"/>
+          </t1_channel_type>
+        </t1_csc>
+      </t1_plane>
+    </t1_arm>
+    <t1_arm id="0">
+      <t1_plane id="1">
+        <t1_csc id="1">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="25"/>
+            <channel id="21"/>
+            <channel id="29"/>
+            <channel id="121"/>
+            <channel id="109"/>
+            <channel id="111"/>
+            <channel id="125"/>
+            <channel id="9"/>
+            <channel id="103"/>
+            <channel id="101"/>
+            <channel id="107"/>
+          </t1_channel_type>
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="99"/>
+            <channel id="48"/>
+            <channel id="46"/>
+            <channel id="54"/>
+            <channel id="44"/>
+            <channel id="42"/>
+            <channel id="50"/>
+            <channel id="40"/>
+            <channel id="34"/>
+            <channel id="60"/>
+            <channel id="3"/>
+            <channel id="64"/>
+            <channel id="7"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="3">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="50"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="2">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="3"/>
+            <channel id="15"/>
+          </t1_channel_type>
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="3"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="5">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="24"/>
+            <channel id="25"/>
+            <channel id="38"/>
+            <channel id="33"/>
+            <channel id="1"/>
+            <channel id="3"/>
+            <channel id="2"/>
+            <channel id="4"/>
+          </t1_channel_type>
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="42"/>
+            <channel id="41"/>
+          </t1_channel_type>
+        </t1_csc>
+      </t1_plane>
+      <t1_plane id="0">
+        <t1_csc id="1">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="116"/>
+            <channel id="13"/>
+            <channel id="27"/>
+            <channel id="15"/>
+            <channel id="58"/>
+            <channel id="54"/>
+            <channel id="31"/>
+            <channel id="29"/>
+            <channel id="1"/>
+            <channel id="98"/>
+            <channel id="62"/>
+            <channel id="89"/>
+            <channel id="73"/>
+            <channel id="71"/>
+            <channel id="69"/>
+            <channel id="91"/>
+            <channel id="59"/>
+            <channel id="102"/>
+            <channel id="87"/>
+            <channel id="79"/>
+          </t1_channel_type>
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="39"/>
+            <channel id="58"/>
+            <channel id="48"/>
+            <channel id="32"/>
+            <channel id="42"/>
+            <channel id="40"/>
+            <channel id="114"/>
+            <channel id="108"/>
+            <channel id="116"/>
+            <channel id="35"/>
+            <channel id="102"/>
+            <channel id="106"/>
+            <channel id="104"/>
+            <channel id="110"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="3">
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="71"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="2">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="27"/>
+            <channel id="32"/>
+            <channel id="31"/>
+            <channel id="30"/>
+            <channel id="28"/>
+            <channel id="29"/>
+            <channel id="81"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="5">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="1"/>
+            <channel id="2"/>
+            <channel id="91"/>
+            <channel id="93"/>
+            <channel id="92"/>
+            <channel id="95"/>
+            <channel id="94"/>
+            <channel id="96"/>
+          </t1_channel_type>
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="32"/>
+            <channel id="26"/>
+            <channel id="28"/>
+            <channel id="44"/>
+            <channel id="97"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="4">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="29"/>
+          </t1_channel_type>
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="9"/>
+            <channel id="8"/>
+            <channel id="3"/>
+            <channel id="5"/>
+            <channel id="7"/>
+          </t1_channel_type>
+        </t1_csc>
+      </t1_plane>
+      <t1_plane id="3">
+        <t1_csc id="3">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="131"/>
+            <channel id="139"/>
+          </t1_channel_type>
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="54"/>
+            <channel id="116"/>
+            <channel id="118"/>
+            <channel id="114"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="2">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="24"/>
+            <channel id="26"/>
+            <channel id="46"/>
+            <channel id="30"/>
+            <channel id="28"/>
+            <channel id="65"/>
+          </t1_channel_type>
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="1"/>
+            <channel id="3"/>
+            <channel id="2"/>
+            <channel id="4"/>
+            <channel id="67"/>
+            <channel id="93"/>
+            <channel id="79"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="4">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="65"/>
+            <channel id="97"/>
+          </t1_channel_type>
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="65"/>
+          </t1_channel_type>
+        </t1_csc>
+      </t1_plane>
+      <t1_plane id="2">
+        <t1_csc id="1">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="3"/>
+            <channel id="97"/>
+          </t1_channel_type>
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="115"/>
+            <channel id="121"/>
+            <channel id="114"/>
+            <channel id="120"/>
+            <channel id="1"/>
+            <channel id="98"/>
+            <channel id="122"/>
+            <channel id="116"/>
+            <channel id="124"/>
+            <channel id="126"/>
+            <channel id="102"/>
+            <channel id="100"/>
+            <channel id="118"/>
+            <channel id="104"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="0">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="1"/>
+            <channel id="65"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="3">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="58"/>
+            <channel id="17"/>
+            <channel id="46"/>
+            <channel id="44"/>
+            <channel id="42"/>
+            <channel id="40"/>
+            <channel id="52"/>
+            <channel id="1"/>
+            <channel id="2"/>
+          </t1_channel_type>
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="121"/>
+            <channel id="117"/>
+            <channel id="127"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="2">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="74"/>
+            <channel id="110"/>
+            <channel id="66"/>
+            <channel id="82"/>
+            <channel id="80"/>
+            <channel id="94"/>
+            <channel id="84"/>
+            <channel id="78"/>
+          </t1_channel_type>
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="39"/>
+            <channel id="27"/>
+            <channel id="23"/>
+            <channel id="45"/>
+            <channel id="41"/>
+            <channel id="1"/>
+            <channel id="3"/>
+            <channel id="2"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="5">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="38"/>
+            <channel id="44"/>
+            <channel id="50"/>
+            <channel id="35"/>
+            <channel id="62"/>
+            <channel id="64"/>
+          </t1_channel_type>
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="69"/>
+            <channel id="73"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="4">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="65"/>
+          </t1_channel_type>
+        </t1_csc>
+      </t1_plane>
+      <t1_plane id="4">
+        <t1_csc id="1">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="151"/>
+            <channel id="159"/>
+            <channel id="131"/>
+            <channel id="65"/>
+            <channel id="161"/>
+          </t1_channel_type>
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="58"/>
+            <channel id="54"/>
+            <channel id="42"/>
+            <channel id="14"/>
+            <channel id="50"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="0">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="106"/>
+          </t1_channel_type>
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="121"/>
+            <channel id="111"/>
+            <channel id="134"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="3">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="104"/>
+          </t1_channel_type>
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="79"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="2">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="1"/>
+            <channel id="65"/>
+            <channel id="97"/>
+          </t1_channel_type>
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="146"/>
+            <channel id="147"/>
+            <channel id="151"/>
+            <channel id="145"/>
+            <channel id="150"/>
+            <channel id="148"/>
+            <channel id="149"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="5">
+          <t1_channel_type fullmask="no" id="1">
+            <channel id="65"/>
+            <channel id="66"/>
+          </t1_channel_type>
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="65"/>
+          </t1_channel_type>
+        </t1_csc>
+        <t1_csc id="4">
+          <t1_channel_type fullmask="no" id="2">
+            <channel id="65"/>
+            <channel id="49"/>
+          </t1_channel_type>
+        </t1_csc>
+      </t1_plane>
+    </t1_arm>
+  </t1_detector_set>
+</top>
+
