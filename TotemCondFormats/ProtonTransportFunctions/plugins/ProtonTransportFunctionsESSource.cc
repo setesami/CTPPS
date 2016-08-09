@@ -26,7 +26,7 @@
 #include "TotemCondFormats/ProtonTransportFunctions/interface/ProtonTransportFunctions.h"
 #include "SimG4Core/TotemRPProtonTransportParametrization/interface/LHCOpticsApproximator.h"
 #include "Geometry/Records/interface/VeryForwardRealGeometryRecord.h"
-#include "Geometry/TotemRPGeometryBuilder/interface/TotemRPGeometry.h"
+#include "Geometry/VeryForwardGeometryBuilder/interface/TotemRPGeometry.h"
 
 #include "TFile.h"
 #include "TKey.h"
