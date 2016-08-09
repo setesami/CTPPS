@@ -1,0 +1,11 @@
+<use   name="FWCore/Framework"/>
+<use   name="FWCore/ParameterSet"/>
+<use   name="FWCore/MessageLogger"/>
+<use   name="TotemCondFormats/DataRecord"/>
+<use   name="TotemCondFormats/BeamOpticsParamsObjects"/>
+<use   name="root"/>
+
+<use   name="TotemCondFormats/ProtonTransportFunctions"/>
+<use   name="DataFormats/TotemRPDataTypes"/>
+<use   name="SimG4Core/TotemRPProtonTransportParametrization"/>
+<flags   EDM_PLUGIN="1"/>
