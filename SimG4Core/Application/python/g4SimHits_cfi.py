@@ -72,7 +72,7 @@ g4SimHits = cms.EDProducer("OscarMTProducer",
     FileNameField = cms.untracked.string(''),
     FileNameGDML = cms.untracked.string(''),
     #TOTEM uses MeasuredGeometryRecord instead of IdealGeometryRecord
-    UseMeasuredGeometryRecord = cms.untracked.bool(True),  # HINT: TOTEM specific
+    UseMeasuredGeometryRecord = cms.untracked.bool(False),  # HINT: TOTEM specific
     FileNameRegions = cms.untracked.string(''),
     Watchers = cms.VPSet(
 #        cms.PSet( # HINT: TOTEM specific
