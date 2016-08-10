@@ -47,11 +47,13 @@ g4SimHits = cms.EDProducer("OscarMTProducer",
     G4StackManagerVerbosity = cms.untracked.int32(0),
     G4TrackingManagerVerbosity = cms.untracked.int32(0),
     UseMagneticField = cms.bool(True),
+    OverrideUserStackingAction = cms.bool(True),   # HINT: TOTEM specific
     StoreRndmSeeds = cms.bool(False),
     RestoreRndmSeeds = cms.bool(False),
     PhysicsTablesDirectory = cms.string('PhysicsTables'),
     StorePhysicsTables = cms.bool(False),
     RestorePhysicsTables = cms.bool(False),
+    TransportParticlesThroughWholeBeampipe = cms.bool(True),
     CheckOverlap = cms.untracked.bool(False),
     G4CheckOverlap = cms.PSet(
         Tolerance = cms.untracked.double(0.0),
@@ -69,9 +71,26 @@ g4SimHits = cms.EDProducer("OscarMTProducer",
     VerboseTracks = cms.vint32(),
     FileNameField = cms.untracked.string(''),
     FileNameGDML = cms.untracked.string(''),
+    #TOTEM uses MeasuredGeometryRecord instead of IdealGeometryRecord
+    UseMeasuredGeometryRecord = cms.untracked.bool(True),  # HINT: TOTEM specific
     FileNameRegions = cms.untracked.string(''),
-    Watchers = cms.VPSet(),
-    HepMCProductLabel = cms.InputTag("generatorSmeared"),
+    Watchers = cms.VPSet(
+#        cms.PSet( # HINT: TOTEM specific
+#            type = cms.string('SimTracer'),
+#            SimTracer = cms.PSet(verbose = cms.bool(True)),
+#        ),
+#       cms.PSet( # HINT: TOTEM specific
+#           type = cms.string('TotemRP'),
+#           TotemRP = cms.PSet(
+#               Names = cms.vstring('TotemHitsRP'),
+#               FileName = cms.string('TotemTestRP_Hits.root'),
+#               RPDebugFileName = cms.string('TotemDebugRP.root'),
+#               FileNameOLD = cms.string('TotemTestRP_Hits_Old.root'),
+#               Verbosity = cms.bool(True)
+#           )
+#       )
+    ),
+    HepMCProductLabel = cms.InputTag("generator"),
     theLHCTlinkTag = cms.InputTag("LHCTransport"),
     CustomUIsession = cms.untracked.PSet(
         Type = cms.untracked.string("MessageLogger"), # MessageLoggerThreadPrefix, FilePerThread; the non-default ones are meant only for MT debugging
@@ -110,7 +129,7 @@ g4SimHits = cms.EDProducer("OscarMTProducer",
         DummyEMPhysics = cms.bool(False),
         CutsPerRegion = cms.bool(True),
         CutsOnProton  = cms.untracked.bool(True),
-        DefaultCutValue = cms.double(1.0), ## cuts in cm
+        DefaultCutValue = cms.double(100.0), # HINT: TOTEM uses 100.0cm, CMS uses 1.0cm
         G4BremsstrahlungThreshold = cms.double(0.5), ## cut in GeV
         Verbosity = cms.untracked.int32(0),
         # 1 will print cuts as they get set from DD
@@ -146,17 +165,18 @@ g4SimHits = cms.EDProducer("OscarMTProducer",
         ElectronStepLimit         = cms.bool(False),
         ElectronRangeTest         = cms.bool(False),
         PositronStepLimit         = cms.bool(False),
-        MinStepLimit              = cms.double(1.0)
+        MinStepLimit              = cms.double(1.0),
+        BeamProtTransportSetup = cms.PSet() # HINT: TOTEM specific
     ),
     Generator = cms.PSet(
         HectorEtaCut,
         # string HepMCProductLabel = "generatorSmeared"
         HepMCProductLabel = cms.string('generatorSmeared'),
-        ApplyPCuts = cms.bool(True),
+        ApplyPCuts = cms.bool(False),
         ApplyPtransCut = cms.bool(False),
         MinPCut = cms.double(0.04), ## the cut is in GeV 
         MaxPCut = cms.double(99999.0), ## the pmax=99.TeV 
-        ApplyEtaCuts = cms.bool(True),
+        ApplyEtaCuts = cms.bool(False),
         MinEtaCut = cms.double(-5.5),
         MaxEtaCut = cms.double(5.5),
         RDecLenCut = cms.double(2.9), ## (cm) the cut on vertex radius
@@ -165,7 +185,9 @@ g4SimHits = cms.EDProducer("OscarMTProducer",
         MinPhiCut = cms.double(-3.14159265359), ## (radians)
         MaxPhiCut = cms.double(3.14159265359), ## according to CMS conventions
         ApplyLumiMonitorCuts = cms.bool(False), ## primary for lumi monitors
-        Verbosity = cms.untracked.int32(0)
+        Verbosity = cms.untracked.int32(0),
+        LeaveScatteredProtons = cms.untracked.bool(True),  ## HINT: TOTEM specific - Leave intact protons after scattering for further near beam transport
+        LeaveOnlyScatteredProtons = cms.untracked.bool(False)  ## HINT: TOTEM specific - Leave only intact protons and reject all the other particles
     ),
     RunAction = cms.PSet(
         StopFile = cms.string('StopRun')
@@ -184,7 +206,7 @@ g4SimHits = cms.EDProducer("OscarMTProducer",
         KillHeavy     = cms.bool(False),
         KillGamma     = cms.bool(True),
         GammaThreshold = cms.double(0.0001), ## (MeV)
-        SaveFirstLevelSecondary = cms.untracked.bool(False),
+        SaveFirstLevelSecondary = cms.untracked.bool(True),
         SavePrimaryDecayProductsAndConversionsInTracker = cms.untracked.bool(False),
         SavePrimaryDecayProductsAndConversionsInCalo = cms.untracked.bool(False),
         SavePrimaryDecayProductsAndConversionsInMuon = cms.untracked.bool(False),
@@ -220,6 +242,9 @@ g4SimHits = cms.EDProducer("OscarMTProducer",
         EkinNames               = cms.vstring(),
         EkinThresholds          = cms.vdouble(),
         EkinParticles           = cms.vstring()
+    ),
+    Totem_RP_SD = cms.PSet( # HINT: TOTEM specific
+        Verbosity = cms.int32(0)
     ),
     TrackerSD = cms.PSet(
         ZeroEnergyLoss = cms.bool(False),
@@ -375,7 +400,7 @@ g4SimHits = cms.EDProducer("OscarMTProducer",
     CastorSD = cms.PSet(
         useShowerLibrary               = cms.bool(True),
         minEnergyInGeVforUsingSLibrary = cms.double(1.0),
-        nonCompensationFactor          = cms.double(0.817),
+        nonCompensationFactor          = cms.double(0.85),
         Verbosity                      = cms.untracked.int32(0)
     ),
     CastorShowerLibrary =  cms.PSet(
@@ -387,6 +412,9 @@ g4SimHits = cms.EDProducer("OscarMTProducer",
     ),
     BHMSD = cms.PSet(
          Verbosity = cms.untracked.int32(0)
+    ),
+PPS_Timing_SD = cms.PSet(
+        Verbosity = cms.int32(0)
     ),
     FastTimerSD = cms.PSet(
         Verbosity = cms.untracked.int32(0),
