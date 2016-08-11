@@ -1,0 +1,5 @@
+<lcgdict>
+  <class name="TotemRPHistoClass"/>
+  <class name="TotemRPHistoClass::Hit"/>
+  <class name="std::vector<TotemRPHistoClass::Hit>"/>
+</lcgdict>

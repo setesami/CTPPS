@@ -6,7 +6,7 @@ totemGeomXMLFiles = cms.vstring(
         'Geometry/CMSCommonData/data/rotations.xml', 
         'Geometry/CMSCommonData/data/normal/cmsextent.xml', 
         'Geometry/CMSCommonData/data/cms.xml', 
-        'Geometry/CMSCommonData/data/PhaseI/beampipe.xml', 
+        'Geometry/CMSCommonData/data/PhaseI/beampipe.xml',
         'Geometry/CMSCommonData/data/cmsBeam.xml', 
         'Geometry/CMSCommonData/data/cmsMother.xml', 
         'Geometry/CMSCommonData/data/mgnt.xml', 

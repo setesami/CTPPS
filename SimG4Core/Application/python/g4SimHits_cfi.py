@@ -43,9 +43,9 @@ common_UseLuminosity = cms.PSet(
 
 g4SimHits = cms.EDProducer("OscarMTProducer",
     NonBeamEvent = cms.bool(False),
-    G4EventManagerVerbosity = cms.untracked.int32(0),
-    G4StackManagerVerbosity = cms.untracked.int32(0),
-    G4TrackingManagerVerbosity = cms.untracked.int32(0),
+    G4EventManagerVerbosity = cms.untracked.int32(5),
+    G4StackManagerVerbosity = cms.untracked.int32(5),
+    G4TrackingManagerVerbosity = cms.untracked.int32(5),
     UseMagneticField = cms.bool(True),
     OverrideUserStackingAction = cms.bool(True),   # HINT: TOTEM specific
     StoreRndmSeeds = cms.bool(False),
@@ -65,7 +65,7 @@ g4SimHits = cms.EDProducer("OscarMTProducer",
         NodeNames = cms.vstring('World')
     ),
     G4Commands = cms.vstring(),
-    SteppingVerbosity = cms.int32(0),
+    SteppingVerbosity = cms.int32(5),
     StepVerboseThreshold = cms.double(0.1), # in GeV
     VerboseEvents = cms.vint32(),
     VerboseTracks = cms.vint32(),
