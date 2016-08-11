@@ -1,5 +1,7 @@
 import FWCore.ParameterSet.Config as cms
 
+# aaa
+
 process = cms.Process("TestFlatGun")
 
 # Specify the maximum events to simulate
