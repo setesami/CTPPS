@@ -35,7 +35,7 @@ class DetId;
  * This class is built for both ideal and real geometry. I.e. it is produced by TotemRPIdealGeometryESModule in
  * IdealGeometryRecord and similarly for the real geometry
  *
- * ID conversions (based on the class TotRPDetID)\n
+ * ID conversions (based on the class TotemRPDetID)\n
  * detector ID = |arm|station|RP|det|, i.e. 4-digit decimal number\n
  * Roman Pot ID =  |arm|station|RP|, i.e. two digits\n
  * station ID =   |arm|station|\n

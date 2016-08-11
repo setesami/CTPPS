@@ -17,7 +17,7 @@
 #include "SimG4CMS/TotemRP/interface/Totem_RP_G4HitCollection.h"
 
 //#include "SimG4CMS/TotemRP/interface/RPDebugEvent.h"
-#include "DataFormats/TotemRPDetId/interface/TotRPDetId.h"
+#include "DataFormats/TotemRPDetId/interface/TotemRPDetId.h"
 
 #include "FWCore/Framework/interface/EventSetup.h"
 #include "FWCore/Framework/interface/ESHandle.h"
@@ -832,7 +832,7 @@ void TotemRP::update(const EndOfEvent * evt)
 
           histos->set_EVT(evtnum);
 
-          TotRPDetId det_id((uint32_t)UID);
+          TotemRPDetId det_id((uint32_t)UID);
           histos->set_UID(det_id.DetectorDecId());
 
           histos->set_Ptype(Ptype) ;
