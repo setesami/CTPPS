@@ -1,7 +1,7 @@
 #include "FWCore/MessageLogger/interface/MessageLogger.h"
 
 #include "SimG4CMS/TotemRP/interface/myTotemRPOrganization.h"
-#include "DataFormats/TotemRPDetId/interface/TotRPDetId.h"
+#include "DataFormats/TotemRPDetId/interface/TotemRPDetId.h"
 
 #include "G4VPhysicalVolume.hh"
 #include "G4VTouchable.hh"
