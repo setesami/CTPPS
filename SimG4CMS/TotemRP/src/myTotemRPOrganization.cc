@@ -56,5 +56,5 @@ uint32_t myTotemRPOrganization::GetUnitID(const G4Step* aStep)
   }
    
 //  return UNITA;
-  return TotRPDetId(arm, station, roman_pot, detector).rawId();
+  return TotemRPDetId(arm, station, roman_pot, detector).rawId();
 }
