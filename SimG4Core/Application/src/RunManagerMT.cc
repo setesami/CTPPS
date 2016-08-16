@@ -25,6 +25,7 @@
 #include "SimG4Core/Application/interface/G4RegionReporter.h"
 #include "SimG4Core/Application/interface/CMSGDMLWriteStructure.h"
 #include "SimG4Core/Geometry/interface/G4CheckOverlap.h"
+#include "SimG4Core/Application/interface/TotemRPProtonTransportPhysics.h"
 
 #include "DetectorDescription/Core/interface/DDCompactView.h"
 
@@ -64,6 +65,7 @@ RunManagerMT::RunManagerMT(edm::ParameterSet const & p):
       m_PhysicsTablesDir(p.getParameter<std::string>("PhysicsTablesDirectory")),
       m_StorePhysicsTables(p.getParameter<bool>("StorePhysicsTables")),
       m_RestorePhysicsTables(p.getParameter<bool>("RestorePhysicsTables")),
+      m_TransportParticlesThroughWholeBeampipe(p.getParameter<bool>("TransportParticlesThroughWholeBeampipe")),
       m_pField(p.getParameter<edm::ParameterSet>("MagneticField")),
       m_pPhysics(p.getParameter<edm::ParameterSet>("Physics")),
       m_pRunAction(p.getParameter<edm::ParameterSet>("RunAction")),
@@ -142,6 +144,10 @@ void RunManagerMT::initG4(const DDCompactView *pDD, const MagneticField *pMF,
   // adding GFlash, Russian Roulette for eletrons and gamma, 
   // step limiters on top of any Physics Lists
   phys->RegisterPhysics(new ParametrisedEMPhysics("EMoptions",m_pPhysics));
+
+  //Adding Totem proton transport
+  if(m_TransportParticlesThroughWholeBeampipe)
+    phys->RegisterPhysics(new TotemRPProtonTransportPhysics("totem_parametrised_prot_transp", m_pPhysics));
 
   m_physicsList->ResetStoredInAscii();
   if (m_RestorePhysicsTables) {
