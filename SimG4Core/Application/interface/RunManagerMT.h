@@ -10,6 +10,7 @@
 #include "SimG4Core/Geometry/interface/SensitiveDetectorCatalog.h"
 
 #include "SimG4Core/Notification/interface/SimActivityRegistry.h"
+#include "SimDataFormats/GeneratorProducts/interface/HepMCProduct.h"
 
 #include <memory>
 
@@ -120,6 +121,7 @@ private:
   const std::string m_PhysicsTablesDir;
   bool m_StorePhysicsTables;
   bool m_RestorePhysicsTables;
+  bool m_TransportParticlesThroughWholeBeampipe;
   bool m_check;
   edm::ParameterSet m_pField;
   edm::ParameterSet m_pPhysics; 
