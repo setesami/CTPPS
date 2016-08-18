@@ -223,7 +223,10 @@ G4ClassificationOfNewTrack StackingAction::ClassifyNewTrack(const G4Track * aTra
 {
   // G4 interface part
   G4ClassificationOfNewTrack classification = fUrgent;
-  if (aTrack->GetCreatorProcess()==0 || aTrack->GetParentID()==0) {
+  if (aTrack->GetCreatorProcess()==0
+      || aTrack->GetParentID()==0
+      || (aTrack->GetCreatorProcess()->GetProcessType()==fParameterisation
+          && aTrack->GetCreatorProcess()->GetProcessName() == "TotemRPParameterisationProcess" )) {
     /*
     std::cout << "StackingAction: primary weight= " 
 	      << aTrack->GetWeight() << " "
