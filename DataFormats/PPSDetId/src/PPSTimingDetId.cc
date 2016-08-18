@@ -18,7 +18,7 @@ using namespace std;
 // TOTEM =7, RP = 3
 //CTPPS =8 , Timing=2
 
-PPSTimingDetId::PPSTimingDetId():DetId(DetId::CTPPS,pps_timing_subdet_id)  //first constructor and defult
+PPSTimingDetId::PPSTimingDetId():DetId(DetId::VeryForward,pps_timing_subdet_id)  //first constructor and defult
 {}
 
 
@@ -60,7 +60,7 @@ void PPSTimingDetId::init(unsigned int Arm, unsigned int Station,
 
 PPSTimingDetId::PPSTimingDetId(unsigned int Arm, unsigned int Station,
 			       unsigned int RomanPot, unsigned int Detector):       //third constructor with full id of all parts
-  DetId(DetId::CTPPS,pps_timing_subdet_id)
+  DetId(DetId::VeryForward,pps_timing_subdet_id)
 {
   this->init(Arm,Station,RomanPot,Detector);
 }

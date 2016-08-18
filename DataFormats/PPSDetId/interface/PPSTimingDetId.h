@@ -130,7 +130,7 @@ class PPSTimingDetId : public DetId
  /// returns true if the raw ID is a PPS-timing one
   static bool Check(unsigned int raw)
   {
-    return (((raw >>DetId::kDetOffset) & 0xF) == DetId::CTPPS &&
+    return (((raw >>DetId::kDetOffset) & 0xF) == DetId::VeryForward &&
       ((raw >> DetId::kSubdetOffset) & 0x7) == pps_timing_subdet_id);
   }
 
@@ -148,7 +148,7 @@ class PPSTimingDetId : public DetId
   /// fast conversion Decimal to Raw ID
   static unsigned int DecToRawId(unsigned int dec)
     {
-      unsigned int i = (DetId::CTPPS << DetId::kDetOffset)
+      unsigned int i = (DetId::VeryForward << DetId::kDetOffset)
         | (pps_timing_subdet_id << DetId::kSubdetOffset);
       i &= 0xfe000000;
       i |= ((dec % 10) & 0x3f) << startDetBit; dec /= 10;

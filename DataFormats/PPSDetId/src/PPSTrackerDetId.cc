@@ -8,12 +8,12 @@
 
 // CTPPS =8, Tracker = 1
 
-PPSTrackerDetId::PPSTrackerDetId():DetId(DetId::CTPPS,1),trind(0){}
+PPSTrackerDetId::PPSTrackerDetId():DetId(DetId::VeryForward,1),trind(0){}
 
 
 PPSTrackerDetId::PPSTrackerDetId(uint32_t id):DetId(id),trind(0) {
   //  std::cout<<" constructor of the PPSTrackerDetId" <<std::endl;
-  if (det()!=DetId::CTPPS || subdetId()!=1) {
+  if (det()!=DetId::VeryForward || subdetId()!=1) {
     throw cms::Exception("InvalidDetId") << "PPSTrackerDetId ctor:"
 					 << " det: " << det()
 					 << " subdet: " << subdetId()
@@ -24,7 +24,7 @@ PPSTrackerDetId::PPSTrackerDetId(uint32_t id):DetId(id),trind(0) {
 
 
 PPSTrackerDetId::PPSTrackerDetId(unsigned int Arm, unsigned int Station, unsigned int RP, unsigned int Plane):	      
-  DetId(DetId::CTPPS,1),trind(0)
+  DetId(DetId::VeryForward,1),trind(0)
 {
 //  unsigned int d=0;
   this->init(Arm,Station,RP,Plane);
